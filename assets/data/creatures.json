@@ -1,0 +1,2487 @@
+[
+  {
+    "id": "boar",
+    "name_en": "Boar",
+    "name_pt": "Javali (Boar)",
+    "biome_en": "Meadows",
+    "biome_pt": "Prados",
+    "health": "10 HP (0★) | 20 HP (1★) | 30 HP (2★)",
+    "damage_types_effective": [
+      {
+        "type": "Todos os Danos Físicos",
+        "multiplier": "1.0x (Normal)",
+        "badge": "effective",
+        "desc": "Qualquer arma do início do jogo elimina o javali facilmente."
+      },
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "Pânico",
+        "badge": "weakness",
+        "desc": "Javalis têm pavor de fogo (tochas e fogueiras) e fogem desorientados."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Criatura viva."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Clava de Madeira (Club)",
+        "type": "Clava",
+        "desc": "Arma inicial barata que atordoa o javali com 1 ou 2 golpes."
+      },
+      {
+        "name": "Lança de Sílex (Flint Spear)",
+        "type": "Lança",
+        "desc": "Ataque rápido de perfuração; o arremesso à distância abate javalis que tentam fugir."
+      },
+      {
+        "name": "Arco Bruto (Crude Bow)",
+        "type": "Arco",
+        "desc": "Permite caçar javalis de longe no modo furtivo (Ctrl) para bônus de dano de emboscada."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Andrajos (Rag) ou Armadura de Couro",
+      "type": "Leve",
+      "reason": "A mordida do javali causa pouco dano (10-15); foco total em mobilidade para não gastar estamina correndo atrás dele."
+    },
+    "strategy_pt": "1. **Pavor de Fogo**: Javalis não atacam quando você segura uma tocha ou está perto de uma fogueira; eles correrão em pânico.\n\n2. **Ataque em Furtividade (Sneak)**: Agache-se com a tecla Ctrl e aproxime-se pelas costas a favor do vento. Um único golpe com faca ou flecha causará dano crítico fatal.\n\n3. **Domesticação**: Em vez de matar, construa um cercado de madeira, atraia o javali para dentro e jogue framboesas, cogumelos ou cenouras. Em poucos dias ele será domesticado e reproduzirá carne e couro infinitos!",
+    "drops": "Carne Crua (Raw meat), Pedaços de Couro (Leather scraps), Troféu de Javali",
+    "image": "assets/images/creatures/Boar.webp"
+  },
+  {
+    "id": "neck",
+    "name_en": "Neck",
+    "name_pt": "Neck (Lagarto d'Água)",
+    "biome_en": "Meadows",
+    "biome_pt": "Prados",
+    "health": "5 HP",
+    "damage_types_effective": [
+      {
+        "type": "Fogo e Todos os Danos",
+        "multiplier": "Mortal",
+        "badge": "weakness",
+        "desc": "Morre com praticamente qualquer ataque do jogo."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Clava de Madeira ou Machado de Pedra",
+        "type": "Físico",
+        "desc": "Um golpe simples é suficiente."
+      },
+      {
+        "name": "Lança de Sílex",
+        "type": "Lança",
+        "desc": "Alcance perfeito para acertar os Necks na beira da água sem precisar entrar nela."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Andrajos ou Couro",
+      "type": "Leve",
+      "reason": "Ataque fraco e previsível."
+    },
+    "strategy_pt": "1. **Padrão de Mordida**: O Neck se aproxima nadando ou correndo, para brevemente e dá um bote frontal. Dê um passo para trás ou acerte-o no momento em que ele parar.\n\n2. **Cauda de Neck**: Sempre colete suas caudas para grelhar na fogueira; é uma das primeiras fontes essenciais de vida nos Prados.",
+    "drops": "Cauda de Neck (Neck tail), Troféu de Neck",
+    "image": "assets/images/creatures/Neck.webp"
+  },
+  {
+    "id": "greyling",
+    "name_en": "Greyling",
+    "name_pt": "Cinzentinho (Greyling)",
+    "biome_en": "Meadows",
+    "biome_pt": "Prados",
+    "health": "20 HP",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "Pânico / Vulnerável",
+        "badge": "weakness",
+        "desc": "Greylings fogem aterrorizados de tochas e fogueiras."
+      },
+      {
+        "type": "Todos os Danos Físicos",
+        "multiplier": "Normal (1.0x)",
+        "badge": "effective",
+        "desc": "Qualquer arma os abate em 1 ou 2 golpes."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Tocha (Torch)",
+        "type": "Fogo",
+        "desc": "Bater com a tocha incendeia o Greyling e o faz correr em círculos queimando."
+      },
+      {
+        "name": "Clava de Madeira",
+        "type": "Clava",
+        "desc": "Atordoa com facilidade."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Andrajos",
+      "type": "Leve",
+      "reason": "Monstro básico do início do jogo."
+    },
+    "strategy_pt": "1. **Use a Tocha**: Equipe a tocha assim que avistar um Greyling. Ele hesitará em se aproximar.\n\n2. **Aparar Golpe**: O ataque dele é uma patada com a mão de madeira. Bloqueie com um escudo de madeira para atordoar e finalizar.",
+    "drops": "Resina (Resin), Pedra (Stone)",
+    "image": "assets/images/creatures/Greyling.webp"
+  },
+  {
+    "id": "greydwarf",
+    "name_en": "Greydwarf",
+    "name_pt": "Anão-cinzento (Greydwarf)",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "health": "40 HP (0★) | 80 HP (1★) | 120 HP (2★)",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "Pânico / Vulnerável",
+        "badge": "weakness",
+        "desc": "Temem fogo vivo e tochas."
+      },
+      {
+        "type": "Cortante e Contundente",
+        "multiplier": "Normal (1.0x)",
+        "badge": "effective",
+        "desc": "Machados e clavas cortam seus corpos de madeira e pedra."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Machado de Sílex ou Bronze",
+        "type": "Machado",
+        "desc": "Excelente dano cortante que divide os anões em pedaços."
+      },
+      {
+        "name": "Arco com Flechas de Fogo",
+        "type": "Arco",
+        "desc": "Incendeia e elimina à distância antes que eles comecem a atirar pedras."
+      },
+      {
+        "name": "Escudo de Madeira",
+        "type": "Escudo",
+        "desc": "Aparar a pedrada ou soco cancela o ataque."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Couro nivelada",
+      "type": "Leve",
+      "reason": "Protege contra pedradas e permite correr para esquivar de grupos numerosos."
+    },
+    "strategy_pt": "1. **Ataque à Distância com Pedras**: Se você ficar longe, eles atirarão pedras que desestabilizam sua estamina. Aproxime-se rapidamente ou use o arco.\n\n2. **Fogueira Defensiva**: Colocar uma fogueira no chão ao lado de sua posição faz os anões correrem em círculos com medo, dando controle total da luta.",
+    "drops": "Olho de Anão-cinzento (Greydwarf eye), Madeira, Resina",
+    "image": "assets/images/creatures/Greydwarf.webp"
+  },
+  {
+    "id": "greydwarf_brute",
+    "name_en": "Greydwarf brute",
+    "name_pt": "Bruto Anão-cinzento (Greydwarf Brute)",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "health": "150 HP (0★) | 300 HP (1★) | 450 HP (2★)",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "Eficaz",
+        "badge": "weakness",
+        "desc": "Sofre dano contínuo de queimadura (embora NÃO fuja do fogo como os anões comuns!)."
+      },
+      {
+        "type": "Cortante (Slash)",
+        "multiplier": "Normal (1.0x)",
+        "badge": "effective",
+        "desc": "Machado e espada cortam sua armadura vegetal."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Escudo Broquel de Bronze",
+        "type": "Escudo",
+        "desc": "Aparar o golpe pesado do tronco abre oportunidade crítica."
+      },
+      {
+        "name": "Machado de Bronze ou Espada",
+        "type": "Corpo a Corpo",
+        "desc": "Armas afiadas causam alto dano sequencial."
+      },
+      {
+        "name": "Arco com Flechas de Fogo",
+        "type": "Arco",
+        "desc": "Mantém distância segura enquanto a queima drena seus 150 de HP."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Bronze ou Conjunto de Troll",
+      "type": "Média / Leve",
+      "reason": "O porrete do Bruto causa dano contundente alto. Tenha comida de vida ativa para suportar ou aparar o golpe."
+    },
+    "strategy_pt": "1. **Não Teme Fogo**: ATENÇÃO! Diferente dos anões normais, o Bruto NÃO tem medo de tochas ou fogueiras e investirá contra você sem hesitar.\n\n2. **Aparar Golpe Lento**: Ele levanta o braço bem alto antes de bater. Levante o escudo quando o braço estiver no topo para aparar e contra-atacar com combo triplo.",
+    "drops": "Olho de Anão, Madeira, Dente-de-leão, Troféu de Bruto",
+    "image": "assets/images/creatures/Greydwarf_Brute.webp"
+  },
+  {
+    "id": "greydwarf_shaman",
+    "name_en": "Greydwarf shaman",
+    "name_pt": "Xamã Anão-cinzento (Greydwarf Shaman)",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "health": "100 HP",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "Eficaz",
+        "badge": "weakness",
+        "desc": "Sofre dano contínuo de fogo."
+      },
+      {
+        "type": "Cortante e Perfurante",
+        "multiplier": "Normal (1.0x)",
+        "badge": "effective",
+        "desc": "Corpo frágil."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Arco de Madeira Nobre com Flechas de Fogo",
+        "type": "Arco",
+        "desc": "Prioridade número um: abata o xamã de longe antes que ele cure os aliados."
+      },
+      {
+        "name": "Lança de Bronze ou Sílex",
+        "type": "Lança",
+        "desc": "Avance e use o arremesso para cancelar a conjuração dele."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Couro ou Troll",
+      "type": "Leve",
+      "reason": "Permite correr rápido para sair da névoa de veneno."
+    },
+    "strategy_pt": "1. **ALERTA MÁXIMO DE CURA**: O Xamã conjura uma aura verde que regenera a vida de TODOS os monstros próximos, incluindo Trolls! Elimine o Xamã SEMPRE em primeiro lugar.\n\n2. **Spray de Veneno**: Ele cospe uma nuvem verde em linha reta. Não tente bloquear o veneno com escudo comum; desvie para os lados para não ser envenenado.",
+    "drops": "Olho de Anão, Madeira, Resina, Troféu de Xamã",
+    "image": "assets/images/creatures/Greydwarf_Shaman.webp"
+  },
+  {
+    "name_pt": "Troll da Floresta",
+    "biome_pt": "Floresta Negra",
+    "health": "600 HP (Sem estrelas) | 1200 HP (1 Estrela) | 1800 HP (2 Estrelas)",
+    "damage_types_effective": [
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Fraqueza primária do Troll. Causa dano massivo."
+      },
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "Normal + DoT",
+        "badge": "effective",
+        "desc": "Excelente para queimar à distância com Flechas de Fogo enquanto recua."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Contundente (Blunt)",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "Clavas e martelos causam apenas metade do dano."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Espírito (Spirit)",
+        "multiplier": "0x (Imune)",
+        "badge": "immune",
+        "desc": "Dano de espírito não afeta o Troll."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Arco de Madeira Nobre (Finewood Bow)",
+        "type": "Arco",
+        "desc": "A arma ideal e mais segura. Permite manter distância enquanto atira flechas perfurantes.",
+        "ammo": "Flechas de Fogo ou Flechas de Sílex"
+      },
+      {
+        "name": "Lança de Bronze ou Sílex",
+        "type": "Lança",
+        "desc": "Causa alto dano perfurante corpo-a-corpo rápido e possui ataque secundário de arremesso devastador."
+      },
+      {
+        "name": "Broquel de Bronze (Bronze Buckler)",
+        "type": "Escudo",
+        "desc": "Permite aparar (parry) os golpes do Troll se você tiver comidas de vida suficientes, abrindo 2x de dano crítico."
+      },
+      {
+        "name": "Adaga de Cobre (Copper Knife)",
+        "type": "Adaga",
+        "desc": "Para emboscadas furtivas: o ataque especial pelas costas (Backstab) aplica multiplicador de 6x de dano!"
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Couro (Nível 2-3) ou Conjunto de Troll",
+      "type": "Leve (Sem penalidade de movimento)",
+      "reason": "A melhor defesa contra o Troll é a mobilidade. A armadura leve não reduz sua velocidade (-0%), permitindo correr e rolar sem esgotar estamina.",
+      "alternative": "Armadura de Bronze: recomendada caso você decida aparar golpes corpo a corpo com escudo de bronze e comida de alta vida."
+    },
+    "strategy_pt": "1. **Mantenha a Distância Segura**: Trolls andam ligeiramente mais rápido que a velocidade de caminhada do jogador, mas mais lentos que sua corrida. Não corra sem parar! Ande para regenerar estamina e dê arrancadas de corrida apenas quando o Troll iniciar o golpe.\n\n2. **Ataque com Perfurante à Cabeça**: Mire o arco na cabeça do Troll para bônus de dano de ponto fraco. Use Flechas de Fogo para dano contínuo ou Flechas de Sílex/Bronze para dano perfurante direto.\n\n3. **Desvie com Rolamento (I-Frames)**: O rolamento de esquiva (Barra de Espaço + Tecla de Direção enquanto bloqueia) concede invencibilidade temporária. Quando o Troll levantar o braço para bater, role em diagonal para o lado ou para trás dele.\n\n4. **Cuidado com o Troll de Tronco (Tree Trunk)**: Trolls segurando troncos de árvore possuem alcance horizontal muito maior e causam dano em área avassalador. Mantenha o dobro de distância!\n\n5. **Elimine os Curandeiros Primeiro**: Se houver Xamãs Anões-cinzentos (Greydwarf Shamans) por perto, mate-os primeiro! Eles conjuram névoa verde que cura a vida do Troll rapidamente.\n\n6. **Uso Tático do Terreno**: Você pode usar o Troll como 'lenhador e minerador' improvisado: atraia os golpes dele contra depósitos de Cobre, Estanho e árvores de Bétula (Birch) para coletar recursos avançados antes mesmo de ter as ferramentas adequadas!",
+    "drops": "Pele de Troll (Troll hide), Moedas, Moedas de Prata/Ouro, Troféu de Troll",
+    "id": "troll",
+    "name_en": "Troll",
+    "biome_en": "Black Forest",
+    "image": "assets/images/creatures/Troll.jpg"
+  },
+  {
+    "id": "ghost",
+    "name_en": "Ghost",
+    "name_pt": "Fantasma (Ghost)",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "health": "60 HP",
+    "damage_types_effective": [
+      {
+        "type": "Espírito (Spirit)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Armas sagradas e com dano de espírito vaporizam fantasmas."
+      },
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "1.0x (Normal)",
+        "badge": "effective",
+        "desc": "Tochas e flechas de fogo causam dano."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Danos Físicos (Slash, Pierce, Blunt)",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "Armas comuns atravessam sua forma etérea com metade do dano."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Tocha (Torch)",
+        "type": "Fogo",
+        "desc": "Aquece e queima o fantasma nas catacumbas."
+      },
+      {
+        "name": "Clava de Madeira com Fogo ou Espada de Prata (mais tarde)",
+        "type": "Elemental",
+        "desc": "Dano elemental que ignora a resistência física."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Couro ou Bronze",
+      "type": "Balanceada",
+      "reason": "Ataques etéreos causam dano moderado."
+    },
+    "strategy_pt": "1. **Ataque com Fogo**: Como resiste a golpes puramente físicos, bater nele com uma tocha ou flechas incendiárias é o meio mais rápido no início do jogo.",
+    "drops": "Nenhum drop comum",
+    "image": ""
+  },
+  {
+    "id": "skeleton",
+    "name_en": "Skeleton",
+    "name_pt": "Esqueleto (Skeleton)",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "health": "40 HP (0★) | 80 HP (1★) | 120 HP (2★)",
+    "damage_types_effective": [
+      {
+        "type": "Contundente (Blunt)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Clavas e martelos esmagam ossos com facilidade extrema."
+      },
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "1.25x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Ossos secos queimam rápido."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "Flechas e lanças passam entre as costelas sem causar muito dano."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno (Poison)",
+        "multiplier": "0x (Imune)",
+        "badge": "immune",
+        "desc": "Não possuem órgãos nem carne."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Clava de Madeira ou Maça de Bronze",
+        "type": "Clava",
+        "desc": "A arma perfeita. Um ou dois golpes esfarelam o esqueleto instantaneamente."
+      },
+      {
+        "name": "Stagbreaker (Martelo de 2 mãos)",
+        "type": "AoE Blunt",
+        "desc": "Destrói grupos inteiros dentro das Câmaras Funerárias através de portas fechadas!"
+      },
+      {
+        "name": "Escudo Redondo de Madeira ou Bronze",
+        "type": "Escudo",
+        "desc": "Bloqueia flechas dos esqueletos arqueiros."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Couro ou Bronze",
+      "type": "Leve / Média",
+      "reason": "Protege contra flechas de esqueletos arqueiros em corredores estreitos."
+    },
+    "strategy_pt": "1. **Use Clavas/Maças (Blunt)**: NUNCA use arco com flechas normais em esqueletos, pois eles têm resistência a dano perfurante. Uma simples clava de madeira causa muito mais estrago que uma espada cara.\n\n2. **Tática do Stagbreaker em Criptas**: Acerte o chão perto de portas fechadas nas Câmaras Funerárias. O dano contundente em área mata os esqueletos do outro lado da porta em total segurança!",
+    "drops": "Fragmentos de Osso (Bone fragments), Troféu de Esqueleto",
+    "image": ""
+  },
+  {
+    "id": "rancid_remains",
+    "name_en": "Rancid remains",
+    "name_pt": "Restos Rançosos (Rancid Remains)",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "health": "100 HP",
+    "damage_types_effective": [
+      {
+        "type": "Contundente (Blunt)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Fraqueza esmagadora a maças e martelos."
+      },
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "1.25x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Vulnerável a fogo."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "Resiste a flechas e lanças."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Totalmente imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Maça de Bronze (Bronze Mace)",
+        "type": "Clava",
+        "desc": "Esmaga a carcaça tóxica rapidamente."
+      },
+      {
+        "name": "Broquel de Bronze",
+        "type": "Escudo",
+        "desc": "Aparar evita que você receba o golpe que aplica veneno."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Bronze com Hidromel Anti-Veneno",
+      "type": "Resistência a Veneno",
+      "reason": "Os ataques dele aplicam veneno grave. Hidromel de resistência a veneno reduz esse dano em 75%."
+    },
+    "strategy_pt": "1. **Cuidado com a Nuvem Verde**: O ataque deste esqueleto verde aplica veneno contínuo. Não troque golpes sem aparar.\n\n2. **Aparar Imediato**: Bloqueie no momento do ataque e use combo de 3 golpes com a maça de bronze.",
+    "drops": "Fragmentos de Osso, Troféu de Restos Rançosos",
+    "image": ""
+  },
+  {
+    "id": "root",
+    "name_en": "Root",
+    "name_pt": "Raiz Viva (Root)",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire) e Cortante (Slash)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Machados cortam e fogo consome suas fibras de madeira."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Machado de Bronze ou Ferro",
+        "type": "Machado",
+        "desc": "Causa dano cortante acelerado."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Bronze",
+      "type": "Média",
+      "reason": "Absorve os chicoteios de alta força."
+    },
+    "strategy_pt": "Roots deal high damage with their melee strike, unless the player has upgraded toBronze armor.\n\nTheir attacks are relatively easy to avoid by moving out of range since they cannot move beyond their fixed position. Trying to kill all of them is not effective considering how often they are summoned. Roots de-spawn after a set period of time, so they can be safely ignored.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "name_pt": "Abominação (Abomination)",
+    "biome_pt": "Pântano",
+    "health": "800 HP",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "1.5x (Muito Vulnerável)",
+        "badge": "weakness",
+        "desc": "A Abominação é feita de raízes de madeira viva e queima violentamente."
+      },
+      {
+        "type": "Cortante (Slash)",
+        "multiplier": "Normal (1.0x)",
+        "badge": "effective",
+        "desc": "Machados e espadas funcionam perfeitamente para cortar suas raízes."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "0.25x (Altamente Resistente)",
+        "badge": "resisted",
+        "desc": "Flechas comuns e lanças causam dano quase nulo."
+      },
+      {
+        "type": "Contundente (Blunt)",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "Clavas e martelos são pouco eficazes."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno (Poison) e Gelo (Frost)",
+        "multiplier": "0x (Imune)",
+        "badge": "immune",
+        "desc": "Totalmente imune a veneno e resistente a congelamento."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Machado de Ferro ou Bronze",
+        "type": "Machado",
+        "desc": "Arma corpo-a-corpo ideal: causa alto dano cortante (Slash) que dilacera madeira."
+      },
+      {
+        "name": "Espada de Ferro",
+        "type": "Espada",
+        "desc": "Excelente velocidade de corte e ataque perfurante secundário rápido."
+      },
+      {
+        "name": "Arco com Flechas de Fogo (Fire Arrows)",
+        "type": "Arco",
+        "desc": "A melhor opção à distância. Ateia fogo contínuo aproveitando sua vulnerabilidade extrema."
+      },
+      {
+        "name": "Escudo Broquel de Ferro ou Escudo de Torre",
+        "type": "Escudo",
+        "desc": "Permite aparar a pata da Abominação ou bloquear seu pisão frontal."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Ferro ou Conjunto de Raiz (Root Harnesk)",
+      "type": "Média / Pesada",
+      "reason": "A armadura de ferro absorve os pesados golpes contundentes das raízes. Ter hidromel anti-veneno pronto para o bioma do Pântano é obrigatório."
+    },
+    "strategy_pt": "1. **Tática Suprema do Geiser de Fogo (Surtling Spawner)**: O método mais fácil de derrotar a Abominação é atraí-la para cima de um gêiser de fogo de Surtling no Pântano. Ela queima em segundos e morre sem você gastar armas!\n\n2. **Aparar com Machado**: Ela tem 3 ataques: golpe com a pata esquerda (fácil de aparar/parry), pisão central (dano em área) e golpe com a pata direita. Fique próximo, apare o golpe de pata com broquel e descarregue combo de Machado de Ferro.\n\n3. **Nunca use flechas comuns**: Como ela resiste 75% a dano perfurante, flechas de sílex ou ferro são desperdício. Se for usar arco, use **Flechas de Fogo** exclusivamente.",
+    "drops": "Raiz (Root - usada para forjar o Conjunto de Raiz), Madeira Antiga, Troféu de Abominação",
+    "id": "abomination",
+    "name_en": "Abomination",
+    "biome_en": "Swamp",
+    "image": "assets/images/creatures/Abomination.jpg"
+  },
+  {
+    "id": "blob",
+    "name_en": "Blob",
+    "name_pt": "Gosma (Blob)",
+    "biome_en": "Swamp",
+    "biome_pt": "Pântano",
+    "health": "50 HP",
+    "damage_types_effective": [
+      {
+        "type": "Contundente (Blunt)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Maças e martelos arrebentam a gosma gelatinosa."
+      },
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Gelo congela sua estrutura fluida."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Cortante (Slash)",
+        "multiplier": "0.5x",
+        "badge": "resisted",
+        "desc": "Espadas e machados cortam sem impacto."
+      },
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "0.25x (Muito Resistente)",
+        "badge": "resisted",
+        "desc": "Flechas e lanças causam quase nada."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Totalmente imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Maça de Bronze ou Maça de Ferro",
+        "type": "Clava",
+        "desc": "Mata com 1 ou 2 golpes contundentes."
+      },
+      {
+        "name": "Stagbreaker ou Martelo de Ferro",
+        "type": "Martelo",
+        "desc": "Ataca à distância com impacto no chão sem precisar encostar na nuvem de veneno."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura com Hidromel de Resistência a Veneno (OBRIGATÓRIO)",
+      "type": "Resistência a Veneno",
+      "reason": "A nuvem de veneno do Blob causa 70 de dano tóxico, matando vikings sem hidromel em segundos!"
+    },
+    "strategy_pt": "1. **BEBA HIDROMEL ANTI-VENENO**: No Pântano, nunca ande sem o efeito ativo de Poção/Hidromel de Resistência a Veneno.\n\n2. **Pulo com Nuvem Tóxica**: O Blob pula na sua direção e libera gás venenoso em área. Espere ele aterrissar e dê uma pancada com a maça antes que ele libere o gás.",
+    "drops": "Lodo (Ooze), Troféu de Blob",
+    "image": ""
+  },
+  {
+    "id": "oozer",
+    "name_en": "Oozer",
+    "name_pt": "Limo Gigante (Oozer)",
+    "biome_en": "Swamp",
+    "biome_pt": "Pântano",
+    "health": "150 HP",
+    "damage_types_effective": [
+      {
+        "type": "Contundente (Blunt)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Maças causam dano devastador."
+      },
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Flechas de Gelo."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "0.25x (Muito Resistente)",
+        "badge": "resisted",
+        "desc": "Resistência quase total a flechas comuns."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Maça de Ferro (Iron Mace)",
+        "type": "Clava",
+        "desc": "Melhor arma para estourar o Oozer rapidamente."
+      },
+      {
+        "name": "Stagbreaker / Marreta de Ferro",
+        "type": "AoE",
+        "desc": "Ao morrer, o Oozer se divide em dois Blobs menores; a marreta mata os dois juntos com 1 pancada."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Ferro com Hidromel Anti-Veneno",
+      "type": "Resistência a Veneno",
+      "reason": "Libera uma nuvem de veneno ainda maior que o Blob."
+    },
+    "strategy_pt": "1. **Divisão ao Morrer**: Quando o Oozer morre, ele se divide instantaneamente em 2 Blobs menores! Fique pronto com a maça para eliminá-los em seguida.",
+    "drops": "Lodo (Ooze), Pedaços de Ferro (Scrap iron), Troféu de Oozer",
+    "image": ""
+  },
+  {
+    "name_pt": "Draugr (Morto-Vivo)",
+    "biome_pt": "Pântano",
+    "health": "100 HP (Sem estrelas) | 200 HP (1 Estrela) | 300 HP (2 Estrelas)",
+    "damage_types_effective": [
+      {
+        "type": "Espírito (Spirit)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Dano sagrado de espírito queima sua carne imunda."
+      },
+      {
+        "type": "Contundente (Blunt)",
+        "multiplier": "1.0x (Eficaz)",
+        "badge": "effective",
+        "desc": "Maças atordoam e esmagam com facilidade."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Resistente a Veneno",
+        "multiplier": "0.25x",
+        "badge": "resisted",
+        "desc": "Imunes à maioria das toxinas."
+      }
+    ],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Maça de Ferro (Iron Mace)",
+        "type": "Clava",
+        "desc": "Melhor arma do Pântano."
+      },
+      {
+        "name": "Arco com Flechas de Fogo",
+        "type": "Arco",
+        "desc": "Elimine arqueiros Draugr de longe."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Ferro ou Peitoral de Raiz",
+      "type": "Média/Pesada",
+      "reason": "O peitoral de raiz reduz em 50% o dano dos arqueiros Draugr."
+    },
+    "strategy_pt": "1. **Cuidado nas Criptas Subterrâneas**: Nas criptas, destrua as pilhas de ossos e entranhas (Body Piles) imediatamente com picareta ou flechas para impedir o renascimento infinito de Draugrs.\n\n2. **Esquive dos Arqueiros**: Quando ouvir o estalo da corda do arco de um Draugr Arqueiro, dê um passo lateral ou levante o escudo.\n\n3. **Parry nos Guerreiros de Machado**: O golpe corpo a corpo do Draugr é telegrafado; apare no momento certo para atordoá-lo.",
+    "drops": "Entranhas (Entrails - essenciais para Linguiças!), Troféu de Draugr",
+    "id": "draugr",
+    "name_en": "Draugr",
+    "biome_en": "Swamp",
+    "image": ""
+  },
+  {
+    "id": "draugr_elite",
+    "name_en": "Draugr elite",
+    "name_pt": "Draugr de Elite",
+    "biome_en": "Swamp",
+    "biome_pt": "Pântano",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Espírito (Spirit) e Fogo",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Queimadura sagrada e dano contundente."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Maça de Ferro com Broquel de Ferro",
+        "type": "Clava & Escudo",
+        "desc": "Aparar sua estocada é fundamental para evitar seu dano colossal de 80+."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Ferro completa",
+      "type": "Pesada",
+      "reason": "Possui olhos brilhantes vermelhos e causa muito mais dano que o Draugr comum."
+    },
+    "strategy_pt": "If they detect an enemy nearby, they emit a quick roar before charging in that direction. Blocking and parrying a Draugr attack is important as it will stun them long enough to land multiple strikes. Their trophy can be used to craft theIron sledge.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "leech",
+    "name_en": "Leech",
+    "name_pt": "Sanguessuga (Leech)",
+    "biome_en": "Swamp",
+    "biome_pt": "Pântano",
+    "health": "60 HP",
+    "damage_types_effective": [
+      {
+        "type": "Contundente e Cortante",
+        "multiplier": "1.0x (Eficaz)",
+        "badge": "effective",
+        "desc": "Espadas, maças e armas de haste."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Fogo",
+        "multiplier": "0.5x",
+        "badge": "resisted",
+        "desc": "Vive imersa na água."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Atgeir de Bronze ou Ferro",
+        "type": "Arma de Haste",
+        "desc": "O longo alcance do Atgeir permite golpear as sanguessugas na água sem precisar entrar nela!"
+      },
+      {
+        "name": "Arco com Flechas de Ferro ou Sílex",
+        "type": "Arco",
+        "desc": "Abata-as com segurança da margem seca."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura com Hidromel de Resistência a Veneno",
+      "type": "Resistência a Veneno",
+      "reason": "A mordida aplica um veneno extremamente potente."
+    },
+    "strategy_pt": "1. **Fique Fora da Água**: As sanguessugas só atacam dentro d'água e fogem se puxadas para a terra seca. Fique em troncos ou terra firme e ataque com arma de haste (Atgeir) ou arco.\n\n2. **Bolsas de Sangue**: São fontes cruciais de 'Bloodbag', necessárias para fazer Chouriço de Sangue e Poções de Vida Médias!",
+    "drops": "Bolsa de Sangue (Bloodbag - ingrediente de Poção de Vida), Troféu de Sanguessuga",
+    "image": ""
+  },
+  {
+    "id": "surtling",
+    "name_en": "Surtling",
+    "name_pt": "Surtling (Criatura de Fogo)",
+    "biome_en": "Swamp",
+    "biome_pt": "Pântano",
+    "health": "20 HP",
+    "damage_types_effective": [
+      {
+        "type": "Água (Water)",
+        "multiplier": "FATAL (Fraqueza Absoluta)",
+        "badge": "weakness",
+        "desc": "Contato com qualquer água causa dano contínuo absurdo que mata o Surtling em segundos!"
+      },
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Extrema fraqueza a frio e gelo."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "0x (Totalmente Imune)",
+        "badge": "immune",
+        "desc": "São seres feitos de chama pura."
+      },
+      {
+        "type": "Veneno",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Enxada (Hoe) - Ferramenta Tática!",
+        "type": "Terreno",
+        "desc": "Abaixe o terreno ao redor do gêiser de fogo no Pântano para cobrir tudo com água rasa. Os Surtlings nascerão e morrerão sozinhos na água gerando Carvão e Núcleos infinitos!"
+      },
+      {
+        "name": "Arco com Flechas de Madeira / Sílex",
+        "type": "Arco",
+        "desc": "Tiro de longe elimina com 1 acerto."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Qualquer armadura leve",
+      "type": "Leve",
+      "reason": "Permite esquivar das bolas de fogo arremessadas."
+    },
+    "strategy_pt": "1. **FARM AUTOMÁTICO DE NÚCLEOS DE SURTLING E CARVÃO**: Encontre um gêiser de fogo no Pântano. Use uma Picareta ou Enxada para cavar o chão ao redor dele até brotar água rasa. Toda vez que os Surtlings nascerem, a água causará dano fatal neles automaticamente! Volte periodicamente para coletar dezenas de Núcleos e Carvão sem gastar 1 golpe.\n\n2. **Evite Fogo**: Suas bolas de fogo causam queimaduras com dano ao longo do tempo. Corra para uma poça d'água para apagar as chamas.",
+    "drops": "Núcleo de Surtling (Surtling core - para Forjas e Portais!), Carvão (Coal), Troféu de Surtling",
+    "image": ""
+  },
+  {
+    "id": "wraith",
+    "name_en": "Wraith",
+    "name_pt": "Espectro (Wraith)",
+    "biome_en": "Swamp",
+    "biome_pt": "Pântano",
+    "health": "100 HP",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Suas vestes fantasmagóricas pegam fogo rapidamente."
+      },
+      {
+        "type": "Espírito (Spirit)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Dano de espírito causa queima sagrada intensa."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Danos Físicos",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "Resiste a ataques puramente de corte e contusão."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Arco com Flechas de Fogo",
+        "type": "Arco",
+        "desc": "Abata-o enquanto ele flutua no ar à distância."
+      },
+      {
+        "name": "Espada de Prata (Silver Sword)",
+        "type": "Espada Sagrada",
+        "desc": "O dano sagrado de espírito da prata dilacera o espectro em dois golpes."
+      },
+      {
+        "name": "Broquel de Ferro",
+        "type": "Escudo",
+        "desc": "Aparar sua descida abre chance crítica."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Ferro completa",
+      "type": "Pesada",
+      "reason": "O ataque de corte descendente causa até 60 de dano direto no escuro da noite."
+    },
+    "strategy_pt": "1. **Só Aparece à Noite**: Espectros surgem exclusivamente à noite no Pântano e voam por cima da água. Evite explorar o Pântano à noite a menos que esteja caçando Correntes (Chains) para forjas e armaduras!\n\n2. **Aparar Ataque em Voo**: Ele desce voando em linha reta com garras estendidas. Levante o escudo quando ele estiver a 2 passos de você para aparar.",
+    "drops": "Corrente (Chain - recurso valiosíssimo para melhorias de forja e armaduras!), Troféu de Espectro",
+    "image": ""
+  },
+  {
+    "name_pt": "Lobo (Wolf)",
+    "biome_pt": "Montanhas",
+    "health": "80 HP (Sem estrelas) | 160 HP (1 Estrela) | 240 HP (2 Estrelas)",
+    "damage_types_effective": [
+      {
+        "type": "Contundente, Cortante e Perfurante",
+        "multiplier": "Normal (1.0x)",
+        "badge": "effective",
+        "desc": "Lobos têm pouca vida total e morrem rápido se atingidos."
+      },
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "Normal + Pânico",
+        "badge": "effective",
+        "desc": "Lobos temem fogo quando não estão em frenesi."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Espírito (Spirit)",
+        "multiplier": "0x (Imune)",
+        "badge": "immune",
+        "desc": "São feras vivas."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Escudo Broquel de Ferro ou Escudo Redondo",
+        "type": "Escudo",
+        "desc": "Essencial para aparar o salto rápido do lobo."
+      },
+      {
+        "name": "Espada de Ferro ou Maça de Ferro",
+        "type": "Corpo a Corpo",
+        "desc": "Um combo mata o lobo comum instantaneamente."
+      },
+      {
+        "name": "Atgeir de Ferro (Iron Atgeir)",
+        "type": "Arma de Haste",
+        "desc": "O ataque giratório secundário (Botão Direito) atordoa matilhas inteiras de lobos em 360 graus!"
+      },
+      {
+        "name": "Arco com Flechas de Obsidiana/Sílex",
+        "type": "Arco",
+        "desc": "Abata-os de longe antes que percebam sua presença."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Ferro ou Armadura de Lobo",
+      "type": "Pesada",
+      "reason": "Lobos atacam em sequência implacável. Sem boa armadura e comida alta, dois lobos podem te despedaçar em menos de 3 segundos."
+    },
+    "strategy_pt": "1. **Cuidado com Emboscadas**: Lobos correm muito mais rápido que o jogador e atacam pelas costas. Fique sempre atento aos uivos e conserve estamina nas subidas de montanha.\n\n2. **Aparar Imediato (Parry)**: Quando o lobo correr na sua direção, ele dará um bote em linha reta. Levante o escudo uma fração de segundo antes do salto para aparar. Ele ficará atordoado e morrerá com um golpe!\n\n3. **Técnica do Atgeir em Área**: Se uma alcateia cercar você, use imediatamente o ataque especial giratório do Atgeir para repelir e atordoar todos os lobos ao redor.\n\n4. **Lobos com Estrelas à Noite**: À noite surgem lobos de 1 ou 2 estrelas. Um lobo de 2 estrelas causa até 140 de dano! Dome-os com carne crua em uma armadilha ou use o poder do Bonemass para sobreviver.",
+    "drops": "Pele de Lobo, Carne de Lobo, Presas de Lobo, Troféu de Lobo",
+    "id": "wolf",
+    "name_en": "Wolf",
+    "biome_en": "Mountain",
+    "image": ""
+  },
+  {
+    "id": "drake",
+    "name_en": "Drake",
+    "name_pt": "Drake (Dragão das Neves)",
+    "biome_en": "Mountain",
+    "biome_pt": "Montanhas",
+    "health": "100 HP",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "1.5x (Muito Vulnerável)",
+        "badge": "weakness",
+        "desc": "Como é um ser de gelo puro, o fogo drena sua vida com tremenda rapidez."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "0x (Imune)",
+        "badge": "immune",
+        "desc": "Totalmente imune a congelamento."
+      },
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Arco de Madeira Nobre ou Caçador com Flechas de Fogo",
+        "type": "Arco",
+        "desc": "A arma perfeita. 2 ou 3 flechas de fogo abatem o Drake no ar."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Capa de Pele de Lobo ou Hidromel de Resistência a Gelo",
+      "type": "Resistência ao Frio",
+      "reason": "Protege contra a lentidão e o congelamento dos projéteis de gelo."
+    },
+    "strategy_pt": "1. **Padrão de 3 Tiros de Gelo**: O Drake paira no ar, solta um rugido agudo e atira 3 projéteis de gelo em sequência. Dê passos laterais durante os 3 disparos para desviar de todos.\n\n2. **Janela de Disparo**: Imediatamente após o terceiro disparo de gelo, ele fica imóvel flutuando por alguns segundos. Puxe a corda do arco ao máximo e atire flechas de fogo.",
+    "drops": "Glândula de Gelo (Freeze gland - essencial para Flechas de Gelo e Sorvete!), Troféu de Drake",
+    "image": ""
+  },
+  {
+    "id": "fenring",
+    "name_en": "Fenring",
+    "name_pt": "Fenring (Lobisomem da Montanha)",
+    "biome_en": "Mountain",
+    "biome_pt": "Montanhas",
+    "health": "300 HP",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "1.25x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Fogo é eficaz contra seu pelo denso."
+      },
+      {
+        "type": "Danos Físicos",
+        "multiplier": "1.0x (Normal)",
+        "badge": "effective",
+        "desc": "Espadas e maças funcionam perfeitamente."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Espada de Ferro ou Prata",
+        "type": "Espada",
+        "desc": "Ataques rápidos cortantes."
+      },
+      {
+        "name": "Broquel de Ferro ou Prata",
+        "type": "Escudo",
+        "desc": "Aparar seu salto voador atordoa o monstro."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Lobo ou Ferro",
+      "type": "Pesada",
+      "reason": "O ataque de salto causa dano severo de impacto."
+    },
+    "strategy_pt": "1. **Uivo Noturno**: O Fenring só aparece à noite nas Montanhas e emite um uivo longo antes de caçar.\n\n2. **Ataque em Salto Alto**: Ele se agacha e salta alto no ar para cair com as garras. Role na direção dele quando ele estiver descendo para passar por baixo ou apare com broquel no momento do impacto.",
+    "drops": "Garra de Lobo, Pele de Lobo, Troféu de Fenring",
+    "image": ""
+  },
+  {
+    "name_pt": "Golem de Pedra (Stone Golem)",
+    "biome_pt": "Montanhas",
+    "health": "800 HP",
+    "damage_types_effective": [
+      {
+        "type": "Picareta (Pickaxe)",
+        "multiplier": "Vulnerável (Mineração)",
+        "badge": "weakness",
+        "desc": "Golpear o Golem com Picareta de Ferro causa dano de quebra de rocha!"
+      },
+      {
+        "type": "Contundente (Blunt)",
+        "multiplier": "Normal (1.0x)",
+        "badge": "effective",
+        "desc": "Maças de ferro funcionam bem se aparadas."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Cortante (Slash) e Perfurante (Pierce)",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "Lâminas e flechas perdem metade do dano na rocha sólida."
+      },
+      {
+        "type": "Fogo e Gelo",
+        "multiplier": "0.33x (Resistente)",
+        "badge": "resisted",
+        "desc": "Magias e flechas elementais são muito pouco eficazes."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno e Espírito",
+        "multiplier": "0x (Imune)",
+        "badge": "immune",
+        "desc": "Não é ser vivo nem morto-vivo."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Picareta de Ferro (Iron Pickaxe)",
+        "type": "Picareta",
+        "desc": "Causa dano de perfuração de rocha impressionante quando você sobe em cima dele!"
+      },
+      {
+        "name": "Maça de Ferro (Iron Mace)",
+        "type": "Clava",
+        "desc": "Arma recomendada para aparar no solo e aplicar combos contundentes."
+      },
+      {
+        "name": "Arpão Abissal (Abyssal Harpoon)",
+        "type": "Utilitário",
+        "desc": "Permite puxar o Golem para dentro de um buraco cavado para prendê-lo para sempre."
+      },
+      {
+        "name": "Broquel de Ferro (Iron Buckler)",
+        "type": "Escudo",
+        "desc": "Necessário nível de armadura e vida altos para aparar o ataque lento do braço de pedra."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Lobo (Wolf Armor) ou Armadura de Ferro completa",
+      "type": "Pesada",
+      "reason": "Golems de pedra causam até 110 de dano por golpe. Sem armadura pesada e proteção contra frio, um golpe pode ser fatal."
+    },
+    "strategy_pt": "1. **Tática do Buraco (Prender o Golem)**: Cave um buraco profundo com a picareta. Atraia o Golem para dentro ou puxe-o com o Arpão Abissal. Preso no buraco, ele NÃO desaparece e impede o surgimento de novos Golems na montanha, além de matar lobos para você!\n\n2. **Pular na Cabeça com a Picareta**: Suba numa pedra alta e salte em cima da cabeça do Golem. Ele não consegue te acertar para cima! Golpeie a cabeça dele repetidamente com a Picareta de Ferro para destruí-lo com facilidade.\n\n3. **Combate no Solo (Parry)**: Ele tem dois tipos: o de braço achatado e o de braço espinhoso. O de braço achatado desfere socos lentos facilmente aparáveis com Broquel de Ferro. Apare, ataque 3 vezes com a Maça de Ferro e recue para regenerar estamina.",
+    "drops": "Cristal (usado para janelas de vidro), Pedra, Troféu de Golem",
+    "id": "stone_golem",
+    "name_en": "Stone golem",
+    "biome_en": "Mountain",
+    "image": "assets/images/creatures/Stone_Golem.webp"
+  },
+  {
+    "id": "bat",
+    "name_en": "Bat",
+    "name_pt": "Morcego das Cavernas (Bat)",
+    "biome_en": "Mountain",
+    "biome_pt": "Montanhas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Todos os Danos",
+        "multiplier": "1.0x (Mortal)",
+        "badge": "weakness",
+        "desc": "Morre com 1 único golpe de qualquer arma."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Stagbreaker ou Atgeir",
+        "type": "Área (AoE)",
+        "desc": "Atinge múltiplos morcegos no ar com o impacto de raio."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Ferro ou Lobo",
+      "type": "Média",
+      "reason": "Morcegos atacam em enxames rápidos em cavernas de gelo."
+    },
+    "strategy_pt": "Bats are weak and unless an explorer is unprepared, mainly an annoyance. Their flight patterns are quick and erratic and they quickly attack once before fluttering away, giving only a brief window to strike before they are out of range. Their small size and erratic movements makes shooting them with arrows very challenging and after attacking they often fly behind icicles or indestructible rock features hanging from the ceiling before coming back for another attack run.\n\nWhile they do not do much damage, they do attack in groups of 4-10 which typically spawn in vertical shafts. An explorer might be attacked while attempting to descend or while they are precariously perched on an edge. Due to some weapons \"pulling\" the character forward when attacking, a careless player may find themselves taking a quick trip to the bottom of the cave, dying at the hands of the bats' greatest ally: gravity.\n\nAlert explorers will recognize the sounds of the bats and be able to kill them as they approach with a single hit, though often the hitboxes of weapons are in the wrong vertical plane to attack the bats if they attack at a steep angle from above or below. If the player's first attack misses, blocking and waiting for the bats to draw near again may be the best option due to their tendency to fly up and away and hide behind an obstacle on the ceiling, making ranged attacks difficult. It is easiest to fight them with a quick striking weapon such as a sword or knife while you are on flat ground and your back in a corner to minimize their angles of attack. Weapons with a large area of effect attack such asStagbreaker,Iron sledge, or the secondary attack of an atgeir are very effective at clearing out a swarm. Weapons with narrow arcs such as spears or the atgeir's primary attack can make it difficult to connect a strike.\n\nIf at all possible, do not try to fight a bat swarm inside or near one of your own structures. Their erratic flight patterns and the somewhat inexact damage dealt by most weapons will have you smashing more of your own stuff than bats. They are best fought in a wide-open area. One method of controlling the \"You Stirred the Cauldron\" raid is to buildbonfiresorwindmillswithin your base. Then, stand near the bonfire or windmill. When the bats attack you, they will either dive into the fire or the rotating blades of the windmill and die. You'll have to repair the bonfire or windmill during and after the raid if you use this strategy. If you have a covered pen for tamed animals, make sure that all openings are either very narrow or are covered with iron gratings.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "ulv",
+    "name_en": "Ulv",
+    "name_pt": "Ulv (Cão Ancestral das Cavernas)",
+    "biome_en": "Mountain",
+    "biome_pt": "Montanhas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire) e Cortante",
+        "multiplier": "1.0x (Normal)",
+        "badge": "effective",
+        "desc": "Fera carnívora com atributos parecidos aos do lobo."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Espada de Prata ou Maça de Ferro",
+        "type": "Lâmina",
+        "desc": "Apare o salto e ataque com combo."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Lobo",
+      "type": "Pesada",
+      "reason": "Proteção contra suas presas afiadas."
+    },
+    "strategy_pt": "If you spot them from a distance, a well placed arrow may do the trick before they are aware of your presence. Otherwise, silver weapons are excellent up close. Just beware their powerful pounce that delivers significant knockback and could send an unprepared warrior tumbling down into a crevasse.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "cultist",
+    "name_en": "Cultist",
+    "name_pt": "Cultista Lobisomem (Cultist)",
+    "biome_en": "Mountain",
+    "biome_pt": "Montanhas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Extrema fraqueza a gelo, flechas gélidas e água."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Resistências Físicas",
+        "multiplier": "0.5x",
+        "badge": "resisted",
+        "desc": "Resiste a tipos de dano físicos não especificados."
+      }
+    ],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Arco com Flechas de Obsidiana / Gelo",
+        "type": "Arco",
+        "desc": "Mantenha distância para não ser atingido pelo seu lança-chamas contínuo."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Fenris ou Hidromel Anti-Fogo",
+      "type": "Resistência a Fogo",
+      "reason": "O sopro de fogo do cultista causa dano absurdo se você não tiver proteção a chamas."
+    },
+    "strategy_pt": "Cultists are very alert to their surroundings and will move to sources of noise making sneaking up on them difficult if the player is breaking objects or fighting creatures nearby. Despite this, they will not open the doors that separate their worked stone lairs from the natural caves.\n\nTheir opening attack is a burst of flame that explodes before them. This attack will do initial fire damage and leave players burning for 5 seconds.  This attack cannot be blocked or parried and encompasses a wide arc. After using this attack they will attack twice with a flaming claw slash that will also leave the player burning for 5 seconds in addition to the physical damage. They will cycle through between the attacks with the same flame/claw/claw cycle as long as they are alive or lose track of the player which resets their cycle.\n\nDodging, rolling to the side, or backpedaling can get the player out of the way of the flame burst since it is a relatively short-range attack. It is also blocked by solid objects such as a wall or door.\n\nTheir claw attacks can be blocked or parried but likeFenrings, they are only staggered for a very brief period of time.\n\nIf a player has access toFire resistance barley winethen the Cultist's flame attacks and burning affect from their claws are very minor, though the claws still do physical damage. They are very susceptible tospirit damageandpoison damage. So silver weapons, includingFrostner, are very effective.poison,silver, orneedlearrows are also effective. Silver arrows are the most effective, but the resources may be probably better spent crafting or upgrading aDraugr Fangto use with a different arrow type, preferably poison, sincepoison arrowsstack with the poison effect of the Draugr Fang.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "name_pt": "Mosquito da Morte (Deathsquito)",
+    "biome_pt": "Planícies",
+    "health": "10 HP (Morre com qualquer ataque)",
+    "damage_types_effective": [
+      {
+        "type": "Todos os Danos Físicos",
+        "multiplier": "Mortal (Vida muito baixa)",
+        "badge": "weakness",
+        "desc": "Possui apenas 10 pontos de vida. Qualquer impacto o elimina."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Arco com qualquer flecha",
+        "type": "Arco",
+        "desc": "Elimine-o antes que ele inicie o voo rasante em sua direção."
+      },
+      {
+        "name": "Broquel de Bronze / Ferro ou Escudo de Madeira",
+        "type": "Escudo",
+        "desc": "Bloquear o ferrão anula o dano de 90 e permite contra-atacar."
+      },
+      {
+        "name": "Stagbreaker ou Demolidor (Martelo de duas mãos)",
+        "type": "Martelo AoE",
+        "desc": "A pancada no chão atinge o mosquito no ar devido ao grande raio de impacto."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Peitoral de Raiz (Root Harnesk)",
+      "type": "Leve (Resistência a Perfuração)",
+      "reason": "O ferrão do Deathsquito causa dano puramente Perfurante (Pierce). O Root Harnesk tem Resistência a Pierce (-50% dano), transformando um ataque letal de 90 em meros 25-30 de dano!"
+    },
+    "strategy_pt": "1. **Segredo do Bloqueio**: O mosquito voa em círculos e depois dá um mergulho em linha reta direto para você. Segure a defesa com o escudo voltado para ele. O ataque dele baterá no escudo com som metálico sem causar dano, permitindo que você o golpeie logo em seguida.\n\n2. **Tiroteio de Arco**: Mire enquanto ele voa direto na sua direção. Como ele não faz zigue-zague na reta final, a flecha acertará no centro com facilidade.\n\n3. **Peitoral de Raiz (Root Harnesk)**: É a armadura 'salva-vidas' definitiva para explorar as Planícies pela primeira vez, neutralizando o maior perigo do bioma.",
+    "drops": "Agulha (Needle - usada para fazer Flechas de Agulha e Maça Porcupine)",
+    "id": "deathsquito",
+    "name_en": "Deathsquito",
+    "biome_en": "Plains",
+    "image": ""
+  },
+  {
+    "id": "lox",
+    "name_en": "Lox",
+    "name_pt": "Lox (Bovino Gigante das Planícies)",
+    "biome_en": "Plains",
+    "biome_pt": "Planícies",
+    "health": "1000 HP",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "1.25x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Seu pelo denso queima com facilidade."
+      },
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "1.0x (Normal)",
+        "badge": "effective",
+        "desc": "Flechas e lanças penetram onde lâminas falham."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Contundente e Cortante",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "Seu couro espesso absorve pancadas e cortes."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Arco Presa de Draugr com Flechas de Fogo ou Agulha",
+        "type": "Arco",
+        "desc": "Atire de cima de uma grande rocha onde ele não consiga subir."
+      },
+      {
+        "name": "Atgeir de Ferro Preto",
+        "type": "Haste",
+        "desc": "Ataques perfurantes rápidos mantendo distância de seu pisão."
+      },
+      {
+        "name": "Escudo Broquel de Ferro Preto",
+        "type": "Escudo",
+        "desc": "Aparar seu ataque de mordida abre janela de atordoamento."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura Acolchoada (Padded Armor) ou Lobo",
+      "type": "Pesada",
+      "reason": "O pisão no chão do Lox causa até 130 de dano em área contundente, destruindo estruturas e jogadores com vida baixa."
+    },
+    "strategy_pt": "1. **Tática da Rocha Alta**: Suba em uma das grandes pedras das Planícies. Loxes não conseguem escalar! Fique em cima e atire flechas de fogo até abatê-lo com total segurança.\n\n2. **Domesticação e Montaria**: Loxes podem ser domesticados com Amoras-árticas (Cloudberries), Cevada ou Linho! Com a Sela de Lox, você pode montá-los e esmagar monstros pelas Planícies.\n\n3. **Carne de Lox**: Fornece uma das carnes mais substanciais de todo o jogo (para Torta de Carne de Lox - 75 de Vida).",
+    "drops": "Carne de Lox (Lox meat - 50 HP assada), Couro de Lox (Lox pelt), Troféu de Lox",
+    "image": ""
+  },
+  {
+    "id": "fuling",
+    "name_en": "Fuling",
+    "name_pt": "Fuling (Goblin das Planícies)",
+    "biome_en": "Plains",
+    "biome_pt": "Planícies",
+    "health": "200 HP (0★) | 400 HP (1★) | 600 HP (2★)",
+    "damage_types_effective": [
+      {
+        "type": "Todos os Danos Físicos",
+        "multiplier": "1.0x (Normal)",
+        "badge": "effective",
+        "desc": "Espadas, maças e armas de haste causam dano completo."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Atgeir de Ferro Preto ou Ferro",
+        "type": "Arma de Haste",
+        "desc": "O ataque giratório 360° atordoa múltiplos Fulings ao mesmo tempo instantaneamente!"
+      },
+      {
+        "name": "Espada de Ferro Preto",
+        "type": "Espada",
+        "desc": "Dano cortante altíssimo para eliminar Fulings individuais em 2 golpes."
+      },
+      {
+        "name": "Arco Presa de Draugr",
+        "type": "Arco",
+        "desc": "Elimine sentinelas dos acampamentos à distância no modo furtivo."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura Acolchoada (Padded Armor) ou Conjunto de Raiz (Root Harnesk)",
+      "type": "Pesada / Resistência Perfurante",
+      "reason": "Fulings lanceiros causam dano perfurante absurdo de até 120 de dano! O Peitoral de Raiz corta esse dano pela metade."
+    },
+    "strategy_pt": "1. **CUIDADO COM LANCEIROS (Spear Fulings)**: Os Fulings que carregam lanças podem arremessá-las ou desferir estocadas mortais que aniquilam jogadores desprevenidos em 1 golpe. Priorize-os!\n\n2. **Controle com Atgeir**: Se você for cercado por um bando de Fulings rindo, use o ataque secundário giratório do Atgeir. Todos eles ficarão atordoados cambaleando, permitindo que você os finalize sem tomar dano.\n\n3. **Fulings com Estrelas**: Um Fuling de 2 estrelas pode causar mais de 180 de dano! Nunca tente aparar um Fuling de 2 estrelas sem o melhor escudo do jogo e comida de vida máxima; use arco de longe.",
+    "drops": "Metal Negro (Black metal scrap), Moedas, Troféu de Fuling",
+    "image": ""
+  },
+  {
+    "id": "fuling_berserker",
+    "name_en": "Fuling berserker",
+    "name_pt": "Fuling Berserker (Goblin Gigante)",
+    "biome_en": "Plains",
+    "biome_pt": "Planícies",
+    "health": "800 HP (0★) | 1600 HP (1★) | 2400 HP (2★)",
+    "damage_types_effective": [
+      {
+        "type": "Fogo e Todos os Danos",
+        "multiplier": "1.0x (Normal)",
+        "badge": "effective",
+        "desc": "Recebe dano regular, mas tem vida massiva."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Frostner (Maça de Prata e Gelo)",
+        "type": "Clava Gélida",
+        "desc": "O efeito gélido desacelera seus passos e ataques pesados continuamente."
+      },
+      {
+        "name": "Arco com Flechas de Gelo ou Agulha",
+        "type": "Arco",
+        "desc": "Melhor método solo: atirar e recuar mantendo distância."
+      },
+      {
+        "name": "Escudo Broquel de Ferro Preto",
+        "type": "Escudo",
+        "desc": "Aparar seu ataque de 1 golpe abre janela para combo."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura Acolchoada completa",
+      "type": "Pesada",
+      "reason": "A clava de osso dele desfere combos triplos de 130+ de dano que varrem construções e armaduras frágeis."
+    },
+    "strategy_pt": "1. **Ataque em Combo Triplo**: Ele dá um grito de guerra e desfere 3 pancadas no chão em sequência. Não fique na frente! Role para trás e espere a terceira pancada terminar para entrar contra-atacando.\n\n2. **Use Flechas de Gelo**: A lentidão do gelo torna o Berserker extremamente lento, permitindo que você se mova andando sem gastar estamina enquanto atira flechas.",
+    "drops": "Metal Negro, Moedas, Troféu de Berserker",
+    "image": ""
+  },
+  {
+    "id": "fuling_shaman",
+    "name_en": "Fuling shaman",
+    "name_pt": "Fuling Xamã (Fuling Shaman)",
+    "biome_en": "Plains",
+    "biome_pt": "Planícies",
+    "health": "100 HP",
+    "damage_types_effective": [
+      {
+        "type": "Todos os Danos Físicos e Gelo",
+        "multiplier": "1.0x",
+        "badge": "effective",
+        "desc": "Vida muito baixa uma vez que seu escudo cai."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Arco Presa de Draugr com Flechas de Agulha",
+        "type": "Arco",
+        "desc": "Abata-o antes que ele conjure o escudo amarelo nos aliados."
+      },
+      {
+        "name": "Espada de Ferro Preto",
+        "type": "Espada",
+        "desc": "Quebre o escudo mágico com 1 combo e finalize-o."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura com Vinho de Cevada Resistente a Fogo",
+      "type": "Proteção a Fogo",
+      "reason": "Ele atira bolas de fogo com dano incendiário."
+    },
+    "strategy_pt": "1. **ESCUDO MÁGICO AMARANTO**: O Xamã cria uma barreira dourada em todos os Fulings ao redor que absorve totalmente qualquer dano até ser quebrada. Destrua o Xamã imediatamente ao invadir uma vila Fuling!\n\n2. **Ataque com Bola de Fogo**: Ele levanta o cajado para atirar fogo. Use obstáculos ou dê um passo lateral para esquivar.",
+    "drops": "Metal Negro, Moedas, Troféu de Xamã",
+    "image": ""
+  },
+  {
+    "id": "growth",
+    "name_en": "Growth",
+    "name_pt": "Massa de Alcatrão (Growth)",
+    "biome_en": "Plains",
+    "biome_pt": "Planícies",
+    "health": "100 HP",
+    "damage_types_effective": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "O alcatrão e piche incendeiam violentamente."
+      },
+      {
+        "type": "Contundente (Blunt)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Maças rompem a massa líquida viscosa."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Cortante e Perfurante",
+        "multiplier": "0.5x",
+        "badge": "resisted",
+        "desc": "Lâminas escorregam na substância viscosa."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Veneno",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Arco com Flechas de Fogo",
+        "type": "Arco Incendiário",
+        "desc": "A melhor escolha: incendeia de longe sem permitir que o piche te alcance."
+      },
+      {
+        "name": "Maça de Ferro ou Porcupine",
+        "type": "Clava",
+        "desc": "Dano contundente elevado caso precise lutar perto."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura com Hidromel Anti-Veneno ativo",
+      "type": "Resistência a Veneno",
+      "reason": "O jato de piche aplica veneno massivo e reduz sua velocidade em 50%."
+    },
+    "strategy_pt": "1. **DESVIE DO JATO DE PICHE**: O tiro à distância dele cobre o jogador de alcatrão (Tarred), reduzindo sua velocidade para um rastejo lento e aplicando veneno. Corra em círculo perpendicular ao disparo para não ser atingido.\n\n2. **Guerra de Facções**: Atraia os Growths para perto de Fulings ou Loxes! Eles odeiam Fulings e Loxes e lutarão entre si, permitindo que você colete Alcatrão dos poços sem esforço.",
+    "drops": "Alcatrão (Tar - essencial para móveis e telhados escuros nobres), Troféu de Growth",
+    "image": ""
+  },
+  {
+    "id": "seeker",
+    "name_en": "Seeker",
+    "name_pt": "Seeker (Perseguidor das Névoas)",
+    "biome_en": "Mistlands",
+    "biome_pt": "Terras Nebulosas",
+    "health": "200 HP (0★) | 400 HP (1★) | 600 HP (2★)",
+    "damage_types_effective": [
+      {
+        "type": "Danos Elementais (Gelo, Fogo, Raio)",
+        "multiplier": "Eficaz",
+        "badge": "weakness",
+        "desc": "A carapaça não tem resistência contra magia e dano elemental."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Danos Físicos (Slash, Pierce, Blunt)",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "A carapaça externa reduz o dano de lâminas e clavas comuns."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x",
+        "badge": "immune",
+        "desc": "Imune."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Mistwalker (Espada das Brumas)",
+        "type": "Espada Elemental",
+        "desc": "Causa dano cortante e gélido que desacelera o Seeker e ignora parte de sua defesa."
+      },
+      {
+        "name": "Himminafl (Atgeir de Raio)",
+        "type": "Haste Elemental",
+        "desc": "Dano perfurante com relâmpago atordoante."
+      },
+      {
+        "name": "Cajado de Brasas (Staff of Embers)",
+        "type": "Magia Elemental",
+        "desc": "Bolas de fogo explosivas que pulverizam Seekers voadores."
+      },
+      {
+        "name": "Escudo de Carapaça ou Broquel de Ferro Preto",
+        "type": "Escudo",
+        "desc": "Aparar sua mordida ou investida com asas é fundamental."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Carapaça ou Capa de Penas (Feather Cape)",
+      "type": "Mobilidade & Defesa",
+      "reason": "A Capa de Penas anula todo dano de queda no relevo montanhoso das Terras Nebulosas e dá resistência a gelo."
+    },
+    "strategy_pt": "1. **Ataque em Voo Rasante**: O Seeker abre suas asas de inseto e voa diretamente contra você. Levante o escudo para aparar aterrissagem ou role na direção dele.\n\n2. **Parry para Dano Crítico**: Como ele resiste a dano físico, aparar (Parry) dobra o dano que você causa, compensando sua resistência de carapaça.",
+    "drops": "Carapaça (Carapace), Carne de Seeker, Troféu de Seeker",
+    "image": "assets/images/creatures/Seeker.webp"
+  },
+  {
+    "id": "seeker_brood",
+    "name_en": "Seeker brood",
+    "name_pt": "Cria de Seeker (Brood)",
+    "biome_en": "Mistlands",
+    "biome_pt": "Terras Nebulosas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Todos os Danos Físicos",
+        "multiplier": "Mortal",
+        "badge": "weakness",
+        "desc": "Morrem com qualquer golpe simples ou pisão."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Demolidor ou Stagbreaker",
+        "type": "Martelo AoE",
+        "desc": "Uma pancada no chão esmaga todas as larvas do ninho de uma vez só."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Carapaça",
+      "type": "Pesada",
+      "reason": "Evita ser drenado por dezenas de larvas juntas."
+    },
+    "strategy_pt": "Seeker broods will die to most weapon attacks in one hit. Area-of-effect attacks are extremely effective against Seeker Broods.Ooze bombsandBile bombsprove extremely effective, especially duringThe Queenboss fight where they spawn frequently.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "name_pt": "Soldado Seeker (Seeker Soldier)",
+    "biome_pt": "Terras Nebulosas",
+    "health": "1500 HP",
+    "damage_types_effective": [
+      {
+        "type": "Ponto Fraco no Abdômen",
+        "multiplier": "Vulnerável (2.0x)",
+        "badge": "weakness",
+        "desc": "A parte traseira/abdômen não possui carapaça e recebe dano dobrado!"
+      },
+      {
+        "type": "Magia Elemental / Gelo",
+        "multiplier": "Eficaz",
+        "badge": "effective",
+        "desc": "Cajado de Gelo ou Frostner desacelera o monstro consideravelmente."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Perfurante, Cortante e Contundente",
+        "multiplier": "0.5x (Carapaça frontal)",
+        "badge": "resisted",
+        "desc": "A couraça frontal resiste a todos os danos físicos."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Espírito",
+        "multiplier": "0x (Imune)",
+        "badge": "immune",
+        "desc": "Não afetado por espírito."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Frostner ou Mistwalker",
+        "type": "Espada / Clava de Gelo",
+        "desc": "O efeito de gelo congela e reduz drasticamente a velocidade de ataque."
+      },
+      {
+        "name": "Arbalest (Besta)",
+        "type": "Besta",
+        "desc": "Causa mais de 200 de dano por tiro ao acertar a parte traseira desprotegida."
+      },
+      {
+        "name": "Dead Raiser (Invocador de Mortos)",
+        "type": "Cajado de Sangue",
+        "desc": "Invoque esqueletos para distrair o soldado pela frente enquanto você ataca a traseira!"
+      },
+      {
+        "name": "Escudo de Carapaça ou Broquel de Ferro Preto",
+        "type": "Escudo",
+        "desc": "Para aparar o ataque frontal de mordida."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura Acolchoada (Padded) ou Armadura de Carapaça (Carapace)",
+      "type": "Pesada",
+      "reason": "A investida com as patas e a cabeçada causam dano devastador que destrói estruturas e drena vida."
+    },
+    "strategy_pt": "1. **Ataque pelas Costas (Abdômen Rosa)**: A carapaça frontal repele golpes. Manobre para as costas da criatura onde fica seu abdômen desprotegido para causar dano crítico.\n\n2. **Aproveite a Vantagem de Elevação**: Soldados Seeker não conseguem voar e têm péssima navegação em rochas íngremes. Suba em uma rocha alta ou ruína e atire virotes de Arbalest com segurança.\n\n3. **Tática em Grupo ou com Esqueletos**: Uma pessoa apara o ataque pela frente enquanto a outra desfere combos pesados por trás.",
+    "drops": "Carapaça (Carapace), Mandíbula (Mandible), Carne de Seeker, Troféu",
+    "id": "seeker_soldier",
+    "name_en": "Seeker soldier",
+    "biome_en": "Mistlands",
+    "image": "assets/images/creatures/Seeker_Soldier.webp"
+  },
+  {
+    "id": "dvergr",
+    "name_en": "Dvergr",
+    "name_pt": "Dvergr (Anão Mineiro das Brumas)",
+    "biome_en": "Mistlands",
+    "biome_pt": "Terras Nebulosas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Danos Físicos e Elementais",
+        "multiplier": "1.0x (Neutro)",
+        "badge": "effective",
+        "desc": "Aliados pacíficos a princípio! Não os ataque a menos que queira pilhar a mesa de extrator."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Arbalest ou Cajados Mágicos",
+        "type": "Longo Alcance",
+        "desc": "Se precisar lutar, elimine os magos Dvergr primeiro pois curam e disparam gelo e fogo."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Carapaça com Resistência Elemental",
+      "type": "Proteção Mágica",
+      "reason": "Magos Dvergr disparam rajadas elementais brutais."
+    },
+    "strategy_pt": "Directly attacking a Dvergr settlement will result in the Dvergr in that immediate area becoming permanently hostile to the player. Over time, however, most Dvergr settlements will be overrun by attacking Seekers, especially where the settlement does not have any Dvergr mages. Gjall and seeker soldiers can be particularly useful if you can draw them in to assist you and do some or all of your work for you. At the very least, it's worth letting them soften up the Dvergr before attacking them yourself.\n\nBecause dvergr are naturally neutral to the player, the player can choose when and how to attack them.\n\nIf your Viking is trying to get resources from a Dvergr structure such asdvergr extractorsorsoft tissuefrom crates, without aggroing the dwarves,refined eitror evenpufferfishmay be tossed to land next to a dwarf and will gradually kill it without aggroing the Dvergr. You can also avoid killing the Dvergr at all by tossing refined eitr, one by one, right next to award, extractor box, or crate. The radiation from the refined eitr will eventually break the ward or box.\n\nThe Hard Way:\n\nIf you are attacking groups of Dvergr or Dvergr settlements directly without assistance from seekers, gjall, or indirect damage sources (pufferfish, refined eitr, etc.), planning is extremely important. 1 and especially 2-star mages are some of your largest threats and should most likely be taken out first. 2-star rogues also hit particularly hard and should never be underestimated. Staggering and killing one of the strongest Dvergr should be one of your strongest considerations when starting a fight, and preferably when they are separated from other Dvergr. They can bepushedby nudging them around as you walk into them, but keep in mind that they may decide to path right back to the spot that you pushed them away from and regroup.\n\nHigh ground can be extremely useful, especially if the route to your spot is difficult for Dvergr to navigate towards. To this end, ranged attacks (both physical and magical) can be a way to bypass some of the difficulty if the distance to your spot is far and your aim is precise.\n\nUltimately, groups of players are your best bet for taking on groups of Dvergr. For solo players, aiming for summoned help from aDead Raiserwould be ideal if you can contend with the heavy Eitr requirement. These fights are often less predictable that you might expect, and any help you can get should be utilized. Even multiplayer groups should consider having at least one player using a dead raiser (paired with aStaff of Protectionto bubble playersandtheSkelettminions) for the additional help.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "name_pt": "Gjall (Balão de Fogo)",
+    "biome_pt": "Terras Nebulosas",
+    "health": "1500 HP",
+    "damage_types_effective": [
+      {
+        "type": "Ponto Fraco na Barriga (Ventre Amarelo)",
+        "multiplier": "3.0x (Crítico Devastador)",
+        "badge": "weakness",
+        "desc": "A barriga brilhante do Gjall é o ponto mais fraco de todo o jogo."
+      },
+      {
+        "type": "Perfurante com Flechas de Prata ou Agulha",
+        "multiplier": "Eficaz",
+        "badge": "effective",
+        "desc": "Dano de longo alcance direto."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Fogo e Contundente",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "Ele cospe fogo e flutua."
+      }
+    ],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Arco Spinesnap ou Presa de Draugr",
+        "type": "Arco Longo",
+        "desc": "Mire diretamente no ventre luminoso enquanto ele paira no céu."
+      },
+      {
+        "name": "Arbalest (Besta)",
+        "type": "Besta",
+        "desc": "Disparos na barriga causam até 600 de dano com um único virote!"
+      },
+      {
+        "name": "Cajado de Proteção (Staff of Protection)",
+        "type": "Magia de Sangue",
+        "desc": "Cria uma bolha que absorve os tiros de bolas de fogo do Gjall."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura com Hidromel de Resistência a Fogo (Fire Resistance Barley Wine)",
+      "type": "Proteção Elemental",
+      "reason": "O ataque do Gjall cospe rajadas de fogo contínuo que incendeiam o jogador. Beber vinho de cevada anti-fogo reduz o dano em 50%!"
+    },
+    "strategy_pt": "1. **Atenção ao Som das Trombetas**: Quando o Gjall se aproxima, emite um som cavernoso de berrante/trombeta. Olhe para o céu e localize-o antes que ele inicie os disparos.\n\n2. **Elimine os Ticks (Carrapatos)**: O Gjall joga Ticks vivos do céu. Afaste-se da área de pouso e use uma arma de ataque circular como Atgeir para matar os carrapatos antes que eles grudem no seu personagem.\n\n3. **Tiroteio de Baixo para Cima**: Fique abaixo ou lateralmente e dispare no ventre pulsante para matá-lo em poucos tiros.",
+    "drops": "Bilebag (Saco de Bile), Troféu de Gjall",
+    "id": "gjall",
+    "name_en": "Gjall",
+    "biome_en": "Mistlands",
+    "image": ""
+  },
+  {
+    "id": "tick",
+    "name_en": "Tick",
+    "name_pt": "Carrapato Gigante (Tick)",
+    "biome_en": "Mistlands",
+    "biome_pt": "Terras Nebulosas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Corpo mole vulnerável a estocadas."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Resistências Físicas",
+        "multiplier": "0.5x",
+        "badge": "resisted",
+        "desc": "Resiste a tipos de dano físicos não especificados."
+      }
+    ],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Atgeir (Himminafl ou Ferro)",
+        "type": "Arma de Haste",
+        "desc": "O ataque giratório 360° arranca o carrapato grudado no seu corpo imediatamente!"
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Carapaça",
+      "type": "Pesada",
+      "reason": "Quando grudam nas suas costas, drenam sangue a cada segundo."
+    },
+    "strategy_pt": "Individual Ticks are easily dealt with. They are vulnerable to pierce damage and thus weapons dealing particular damage type such as thePorcupinewill reliably kill multiple Ticks in a single hit. If a Tick attaches itself to the player, it will begin to deal heavy pierce damage over time. Attached ticks can be reliably removed by using a combat roll. The default keybind: block (RMB) + jump (spacebar) keys. Alternatively, the player can attempt to use area-of-effect damage to kill the attached Tick (any sledge  hammer type weapon works well), or (with the right angle and timing) parrying the Tick's attack. TheRoot armor'spierce resistance provides great protection against Tick attacks.\n\nA shield can block or parry ticks, allowing them to be disposed of quickly. Because ticks move very quickly and jump frequently when pursuing a target, ranged attacks are usually ineffective once they have spotted a player; however, idle ticks move very slowly and infrequently, and thus ranged attacks are highly effective against them in this state (usually at a distance to keep from being noticed by them). In either case,0-starticks have relatively low health - much more than aDeathsquito, but still low enough that they usually die in one hit from almost anyPlains-tier weapon or better.\n\n1-star and 2-star ticks have increased health and may require multiple hits to kill, unlike the common tick. 2-star ticks especially are capable of killing unprepared players in under one second; players wearing light armor (such as theEitr-weave Set) are especially vulnerable to them.\n\nSince ticks are often encountered in groups, area-of-effect attacks are highly useful for eliminating them simultaneously. Some area-of-effect weapons (such as atgeirs, e.g. theBlack metal atgeir) are less useful due to being less able to hit targets at different altitudes, thus likely missing jumping ticks and being generally less useful in the uneven terrain found throughout the Mistlands. Other weapons (such as two-handed clubs like theDemolisheror magic weapons like theStaff of Embers) work well in all terrain; the staff of embers in particular is highly useful due to being a ranged area-of-effect attack, capable of defeating multiple ticks at once from afar.\n\nIf they latch onto a player, some options include:\n\nUse an area-effect weapon, such as the atgeir or two-handed club, to damage and knockback ticks.A roll will remove ticks attached to the player.Swinging a weapon while turning around allows the weapon to hit ticks on the character's back.Using anOoze bomborBile bomb, their persisting AoE can kill ticks easily.The damage from an attached tick can still be blocked as if they were attacks, and a successful parry will result in the tick being detached.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "fallen_valkyrie",
+    "name_en": "Fallen Valkyrie",
+    "name_pt": "Valquíria Caída (Fallen Valkyrie)",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "1500 HP",
+    "damage_types_effective": [
+      {
+        "type": "Espírito (Spirit)",
+        "multiplier": "2.0x (Vulnerabilidade Severa)",
+        "badge": "weakness",
+        "desc": "Como é um ser corrompido, armas sagradas de Espírito como Flechas de Prata causam dano assombroso!"
+      },
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Extrema fraqueza a gelo no clima infernal de Ashlands."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "0.25x (Muito Resistente)",
+        "badge": "resisted",
+        "desc": "Nascida do calor de Ashlands."
+      }
+    ],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Arco com Flechas de Prata (Silver Arrows)",
+        "type": "Arco Sagrado",
+        "desc": "A melhor arma contra a Valquíria! O dano de Espírito consome sua barra de vida no ar."
+      },
+      {
+        "name": "Cajado de Gelo (Staff of Frost)",
+        "type": "Magia Elemental",
+        "desc": "Metralha fragmentos de gelo contínuos aproveitando sua fraqueza gélida."
+      },
+      {
+        "name": "Slayer (Espadona de Prata/Flametal)",
+        "type": "Espada Dupla",
+        "desc": "Para combates em solo quando ela aterrissa."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Flametal ou Conjunto de Ask",
+      "type": "Pesada / Ágil",
+      "reason": "Suas garras e o bater de asas arremessam o jogador e causam dano cortante tremendo."
+    },
+    "strategy_pt": "1. **Use Flechas de Prata**: Mesmo sendo uma criatura de bioma final, sua natureza morta-viva/corrompida a torna hiper-vulnerável a Dano de Espírito. Leve vários packs de Flechas de Prata para Ashlands!\n\n2. **Aterrissagem e Ataque em Área**: Quando ela desce dos céus, bate as asas criando um tornado de cinzas e espinhos. Mantenha distância e continue atirando.",
+    "drops": "Penas Celestiais, Carne Divina, Troféu de Valquíria",
+    "image": ""
+  },
+  {
+    "id": "charred_warrior",
+    "name_en": "Charred Warrior",
+    "name_pt": "Guerreiro Carbonizado",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Espírito (Spirit) e Contundente",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Como são esqueletos ardentes, sofrem dano de espírito e maças pesadas."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Slayer ou Maça de Flametal / Prata",
+        "type": "Arma Sagrada/Pesada",
+        "desc": "Esmaga o guerreiro esqueleto com facilidade."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Flametal",
+      "type": "Pesada",
+      "reason": "Espadas de cinza causam dano duplo cortante e de fogo."
+    },
+    "strategy_pt": "Charred Warriors have a somewhat slow walking animation, meaning they can be outran easily.\n\nWarriors have different attack animations, such as a forward thrust or a delayed swing. These make parrying less predictable before their animations are learned.\n\nMost attacks are equally effective on warriors (except for non-backstab/ambush pierce attacks), so your best approach is being patient with the fight and with your stamina and/or eitr.\n\nRanged players should keep in mind that warriors can occasionally be fairly quiet and have the tendency to sneak up on players that are busy focusing on other enemies or trying to catch their breath. If the player is wearing lighter armor or heavily relying on a bubble from aStaff of Protection, multiple warriors thrusting at the same exact time are likely to execute you quickly if they catch you in a blind spot.\n\nThe same can occur even for those that prefer heavier armor and/or the use of shields, as multiple thrusts from warriors within a short window can overwhelm your stagger limitations. Even players that prefer health-centered diets will find that food doesn't help if multiple warriors are striking at the same exact moment.\n\nTry to separate them if you can, rely on teammates, split them up and/or distract them with minion summons from aDead Raiser/Trollstav. Additionally, it's worth noting that fleeing/retreating into other nearby areas with more enemies (notably warriors) can lead to a false sense of security with their slower walking speed. The number of warriors can quickly turn the favor of the fight against you, and planning your routes out can help prevent 1 minute fights from turning into 10 minute brawls.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "charred_marksman",
+    "name_en": "Charred Marksman",
+    "name_pt": "Atirador Carbonizado",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Espírito e Contundente",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Vulnerável a dano de espírito e pancadas contundentes."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Resistências Físicas",
+        "multiplier": "0.5x",
+        "badge": "resisted",
+        "desc": "Resiste a tipos de dano físicos não especificados."
+      }
+    ],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Arbalest com virotes de osso ou Arco",
+        "type": "Longo Alcance",
+        "desc": "Dispare de volta usando cobertura de pedras."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Flametal ou Peitoral de Raiz",
+      "type": "Resistência a Projéteis",
+      "reason": "Dispara virotes de fogo em alta velocidade."
+    },
+    "strategy_pt": "Charred Marksmen have two attacks, a burst shot when the player is farther away, and a single direct shot when the player is closer. The direct shot can be parried, akin to a Draugr with a bow.\n\nThey are best dealt with by attacking them in melee range, rather than with a ranged weapon, due to their resistance toPierce. However, ranged exceptions include heavy backstab/ambush damage from either anArbalestorRipper(especially aWound Ripperif used in tandem with blood magic), as well as Eitr options like theStaff of the Wild,Staff of Embers, or theStaff of Fracturing.\n\nStaff of the wild can give an Eitr caster the option to wear down marksmen, as most assume a stationary position when in range and within an unblocked view of the player.The Staff of Embers can deal fairly consistent damage without needing to be extremely accurate with hits- as the area of effect damage can still burn down targets.The Staff of Fracturing can also be reliable, but only when landing direct hits that allow the full cluster of fractured shots to detonate on the marksman. Missed projectiles are likely to only set the marksman on fire, which will have negligible results.\n\nLastly, minions should typically be reserved for larger clusters of diversified enemies, but they still remain an option for marksmen that aren't being dealt with by the methods above.SkelettandSummoned trollminions from theDead RaiserandTrollstavcan help distract and mitigate incoming damage from groups of marksmen if utilized properly at the cost of requiring heavy Eitr management.  Though in the case of the Trollstav, it is best to be ready to kill leftover, aggressive minions that have survived the fight.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "charred_warlock",
+    "name_en": "Charred Warlock",
+    "name_pt": "Bruxo Carbonizado (Warlock)",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Espírito (Spirit)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Dano sagrado cancela suas invocações nefastas."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Resistências Físicas",
+        "multiplier": "0.5x",
+        "badge": "resisted",
+        "desc": "Resiste a tipos de dano físicos não especificados."
+      }
+    ],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Arco com Flechas de Prata",
+        "type": "Arco Sagrado",
+        "desc": "Elimine o bruxo antes que ele invoque exércitos de esqueletos de cinzas."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Flametal",
+      "type": "Pesada",
+      "reason": "Dispara bolas de magia negra explosivas."
+    },
+    "strategy_pt": "Warlock only appears on Fortress or Point of Interest (Dyrnwynquest) and they are extremely dangerous.Silver arroware the best here before engaging them closer.Fire resistance barley wineis the best to counter their Fireball attack. Their summon, while fragile, also does the same damage asCharred Twitcher.\n\nPlayers can choose to focus down theSummoned Twitcherclusters or the Warlock first, but just like structural spawners- focusing down the Warlock (and eachEffigy of Malicefor that matter) will put an end to the stream of enemies and should be prioritized. If you are breaching with aBattering ramand are able to push past the flow of enemies, keep in mind that a Warlock's fireballs have a heavy arc. If you are on the upper wall ramparts and the Warlock is on ground level, their fireball casts are likely to drop and hit the inside edge of the wall rather than make contact with you. Using magic or ranged options in this scenario would be advantageous, but be aware that you will still need to contend with the leftover Summoned Twitchers that will be following you in droves.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "charred_twitcher",
+    "name_en": "Charred Twitcher",
+    "name_pt": "Trêmulo Carbonizado (Twitcher)",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Contundente e Espírito",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Monstro frágil de horda em Ashlands."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Atgeir ou Espada de Flametal",
+        "type": "Varredura",
+        "desc": "Corte múltiplos com cada golpe."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Flametal ou Ask",
+      "type": "Leve/Pesada",
+      "reason": "Atiram pedregulhos de lava em grupo."
+    },
+    "strategy_pt": "These charred spawn very frequently around theAshlands, and are of little threat on their own. Their AI is very similar to aGreydwarf, as they will run circles around the player and throw ash rocks for low damage, only occasionally running at the player to deliver a slightly higher damage melee attack. They become very annoying when in large groups and can easily knock the player towards more deadly enemies.\n\n2 starred Twitchers are dangerous on their own and especially in a large group and should be focused on as they present more of a threat than a typical warrior, especially with their melee attacks. The 2 star variants frequently spawn fromMonuments of Torment (Elite)aroundMysterious Locations. A player with high bow skill can easily dispatch them, despite requiring some skilled shots as they are fast and constantly change direction.\n\nArea of effect weapons like theHimminaflandDemolishermake quick work of larger groups for melee users. Magic users will get great use from theStaff of Embers, with the other staffs being less useful, as the Twitchers like to keep their distance and are too small and fast to hit reliably. The only partial exceptions being theStaff of Frostthat can help slow down retreating Twitchers at close range or theStaff of the Wildthat can help punish Twitchers for passing through an area that you're expecting them to travel through.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "morgen",
+    "name_en": "Morgen",
+    "name_pt": "Morgen (Monstro Voraz de Ashlands)",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "1400 HP",
+    "damage_types_effective": [
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Sofre alto dano de armas e magias gélidas."
+      },
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "1.25x (Vulnerável nas aberturas)",
+        "badge": "effective",
+        "desc": "Estocadas quando ele abre a boca para rolar."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "0.25x (Resistente)",
+        "badge": "resisted",
+        "desc": "Resiste ao calor intenso."
+      }
+    ],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Cajado de Gelo (Staff of Frost)",
+        "type": "Magia Gélida",
+        "desc": "Desacelera seus rolamentos frenéticos e drena sua vida com facilidade."
+      },
+      {
+        "name": "Lança de Carapaça ou Flametal com Gelo",
+        "type": "Lança",
+        "desc": "Estocadas rápidas entre os ciclos de ataque."
+      },
+      {
+        "name": "Escudo Torre de Flametal ou Broquel Pesado",
+        "type": "Escudo",
+        "desc": "Para bloquear o impacto de rolamento brutal."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Flametal completa",
+      "type": "Máxima Proteção",
+      "reason": "O Morgen rola como uma bola esmagadora capaz de pulverizar rochas e causar mais de 140 de dano instantâneo."
+    },
+    "strategy_pt": "1. **Desvie do Rolamento de Esmagamento**: O Morgen se encolhe em uma bola disforme e rola em altíssima velocidade. Não tente bloquear de frente sem escudo de ponta; role lateralmente para deixá-lo passar reto e bater na parede.\n\n2. **Ataque Durante a Recuperação**: Após bater em uma rocha ou terminar o rolamento, ele fica atordoado por 2 a 3 segundos com a barriga exposta. Descarregue seu ataque de gelo ou combo de lança nesse momento.",
+    "drops": "Tendões de Morgen, Carne Monstruosa, Troféu de Morgen",
+    "image": ""
+  },
+  {
+    "id": "bonemaw_serpent",
+    "name_en": "Bonemaw Serpent",
+    "name_pt": "Serpente Bonemaw de Ashlands",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "1000 HP",
+    "damage_types_effective": [
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "2.0x (Vulnerabilidade Severa)",
+        "badge": "weakness",
+        "desc": "Flechas de Gelo e Cajado de Gelo congelam suas mandíbulas ósseas ferventes."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Arco com Flechas de Gelo ou Arbalest",
+        "type": "Arco Longo",
+        "desc": "A única forma segura de proteger o barco nas águas escaldantes de Ashlands."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Flametal com Poção de Fogo",
+      "type": "Naval",
+      "reason": "Seu cuspe de magma corrói barcos rapidamente."
+    },
+    "strategy_pt": "Frost arrowis really good against Bonemaw Serpent. UnlikeSerpent, they also spawn during the day and also has a Fire spit attack, so deal with this quick before landing. They can be farmed easier than Serpents because they spawn right near the coast and the drops don't sink.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "asksvin",
+    "name_en": "Asksvin",
+    "name_pt": "Asksvin (Réptil Guerreiro de Ashlands)",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "800 HP",
+    "damage_types_effective": [
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Congela e desacelera suas investidas ultrarrápidas."
+      },
+      {
+        "type": "Perfurante e Cortante",
+        "multiplier": "1.0x (Normal)",
+        "badge": "effective",
+        "desc": "Lâminas afiadas e lanças."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Fogo",
+        "multiplier": "0.5x",
+        "badge": "resisted",
+        "desc": "Resistente a calor."
+      }
+    ],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Mistwalker ou Espada de Gelo",
+        "type": "Espada",
+        "desc": "Corta e gela o réptil antes do segundo salto."
+      },
+      {
+        "name": "Escudo Broquel de Flametal",
+        "type": "Escudo",
+        "desc": "Aparar sua mordida frontal atordoa o animal."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Ask ou Flametal",
+      "type": "Ágil / Pesada",
+      "reason": "Ele ataca com saltos de longo alcance e mordidas pesadas."
+    },
+    "strategy_pt": "1. **Salto de Bote**: O Asksvin tem dois ataques: mordida corpo a corpo e um salto elástico de média distância. Mantenha o escudo levantado quando ele flexionar as patas traseiras.\n\n2. **Domesticação e Montaria**: Pode ser domesticado em Ashlands com Smoke Puffs e Fiddleheads, tornando-se a montaria mais rápida e agressiva do jogo!",
+    "drops": "Cauda de Asksvin (para ensopados de 85 Vida!), Bexiga de Asksvin, Couro",
+    "image": ""
+  },
+  {
+    "id": "volture",
+    "name_en": "Volture",
+    "name_pt": "Volture (Abutre de Cinzas)",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Perfurante e Gelo",
+        "multiplier": "1.0x (Eficaz)",
+        "badge": "effective",
+        "desc": "Ave de rapina frágil."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Arco com Flechas de Gelo",
+        "type": "Arco",
+        "desc": "Abata-os enquanto circulam no céu."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Ask",
+      "type": "Ágil",
+      "reason": "Tentam mergulhar e golpear pelas costas do jogador."
+    },
+    "strategy_pt": "Voltures will attempt to get behind the player and attack with their talons. If the player turns toward the Volture to attack it, it will attempt to fly up in the air can get behind the player again. Additionally, Voltures are among the fastest enemies in the game and can outrun a player in light armor with the full effect ofWind Run, making them especially dangerous to players with very low health.\n\nVoltures deal little damage and do not have very much health, but their speed and tendency to get behind the player can make them a nuisance (and a threat in larger numbers). Care should be taken when fighting other enemies when nearby Voltures, since the latter can potentially get behind the player and block them in.\n\nVoltures can only be encountered in two locations in theAshlandsbiome: aroundVolture nests(where several may spawn, butonly one time: they willnotrespawn there periodically), or randomly in areas at or below sea level. Besides one-time encounters around nests, this does mean that Voltures are encountered chiefly at the coastline of the Ashlands, where they can spawn slightly offshore; they are much more rarely encountered inland as random spawns, since low altitudes are rare there (sometimes,lavasections can have low enough altitudes that Voltures can spawn there, although they are not immune to lava and will quickly die if they touch it). Voltures often spawn just far enough out to sea that they are not highly likely to spot players who remain on dry land; however, wading out into the waters towards them (but remaining in water shallow enough to stand in) is usually sufficient to attract their attention.\n\nArea of effect attacks are effective when dealing with Voltures, for similar reasons to how they work well againstBats- their rapid movement and tendency to approach from awkward angles makes AoE damage an easier way of dealing with them, especially in numbers; their low health means they die quickly even to relatively-inferior weaponry (e.g. even aBlack metal atgeir's secondary attack is still capable of two-shotting Voltures). Good weapon options for dealing with Voltures which are Ashlands-appropriate include theHimminafl(secondary attack), theDemolisher, and theStaff of Embers(for mages); especially the latter two, due to their spherical hit areas (polearms' secondary attacks hit in a flat circle, which can more easily miss Voltures if they are not very near your own altitude).\n\nWith appropriate weapons, players should have little to fear from Voltureson their own, even with onlyMistlands-tier armor, since they can be dealt with quickly before they can start piling up damage. Voltures are more dangerous when they join battle with other creatures - as is often the case in the Ashlands, due to its high spawn rates. Voltures are high-priority targets in these situations: they must be dealt with rapidly or they will begin stacking damage on players, as well as interfering with their ability to combat the other creatures and placing them at risk on those fronts.\n\nOther options include theArbalestandRippervariants for backstab/ambush damage, especially when traveling in groups via theDrakkar. Having a crossbowman (or archer) on board with decent aim will save you the trouble of dealing with close range fights that might result in damaging your own ship. On land, ensure that you're looking for spots that you can keep your back to and swivel around if need be so that you can better deal with incoming swipes at your blind spots.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "skugg",
+    "name_en": "Skugg",
+    "name_pt": "Skugg (Espectro Alado das Cinzas)",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "Variável de acordo com o nível",
+    "damage_types_effective": [
+      {
+        "type": "Espírito e Gelo",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Criatura sombria de longo alcance."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [],
+    "recommended_weapons": [
+      {
+        "name": "Besta Arbalest ou Cajado de Gelo",
+        "type": "Disparo",
+        "desc": "Abata no ar antes de sofrer dano sombrio."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura de Flametal",
+      "type": "Pesada",
+      "reason": "Evita dano de emboscada aérea."
+    },
+    "strategy_pt": "The best way to deal with Skugg is either with a bow or catapult. Bow is more efficient because they take down Skuggs without risk of being inside their range. Catapult withExplosive payloadrequires a little bit of aiming but it can also take down wall.\n\nAfter player breaks through the wall and destroys all theEffigy of Malices, go straight to take Skuggs down. They cannot shoot player right next to it.\n\nAlternative methods for Eitr mages would include theStaff of Embers, or less preferably- theStaff of Fracturing. The Staff of Embers AoE projectile can be cast from a fair distance away without the risk of being fired at, whereas the Staff of Fracturing would need more aiming consistency. The Staff of Fracturing has heavier initial projectiles that require a higher arc (requiring the player to close the gap to the Skugg)- and missing this projectile will result in less damage than the Staff of Embers.",
+    "drops": "Itens característicos da criatura",
+    "image": ""
+  },
+  {
+    "id": "lava_blob",
+    "name_en": "Lava Blob",
+    "name_pt": "Gosma de Lava (Lava Blob)",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "health": "50 HP",
+    "damage_types_effective": [
+      {
+        "type": "Gelo (Frost) e Água",
+        "multiplier": "Vulnerável (Mortal)",
+        "badge": "weakness",
+        "desc": "Um tiro de flecha de gelo ou cajado de gelo o solidifica instantaneamente."
+      },
+      {
+        "type": "Perfurante à Distância",
+        "multiplier": "Eficaz",
+        "badge": "effective",
+        "desc": "Elimine de longe com arco."
+      }
+    ],
+    "damage_types_resisted": [],
+    "damage_types_immune": [
+      {
+        "type": "Fogo",
+        "multiplier": "0x (Imune)",
+        "badge": "immune",
+        "desc": "Feito de magma puro."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Arco com Flechas de Gelo ou Arbalest",
+        "type": "Longo Alcance",
+        "desc": "NUNCA ataque corpo a corpo! Elimine de longe antes que ele exploda na sua frente."
+      }
+    ],
+    "recommended_armor": {
+      "set": "Armadura com Hidromel de Resistência a Fogo",
+      "type": "Proteção a Fogo",
+      "reason": "A explosão dele cobre a área inteira de lava e fogo concentrado."
+    },
+    "strategy_pt": "1. **EXPLOSÃO SUICIDA**: O Lava Blob corre em sua direção e explode como uma bomba térmica ao entrar no alcance corpo a corpo. Mantenha distância absoluta e exploda-o com um tiro de arco à distância.",
+    "drops": "Lava Concentrada, Núcleos Ardentes",
+    "image": ""
+  },
+  {
+    "name_pt": "Serpente Marinha (Serpent)",
+    "biome_pt": "Oceano",
+    "health": "400 HP",
+    "damage_types_effective": [
+      {
+        "type": "Gelo (Frost)",
+        "multiplier": "1.5x (Vulnerável)",
+        "badge": "weakness",
+        "desc": "Flechas de Gelo causam lentidão e dano massivo."
+      },
+      {
+        "type": "Perfurante (Pierce)",
+        "multiplier": "Normal (1.0x)",
+        "badge": "effective",
+        "desc": "Flechas de ferro, sílex ou espinho."
+      }
+    ],
+    "damage_types_resisted": [
+      {
+        "type": "Fogo (Fire)",
+        "multiplier": "0.5x (Resistente)",
+        "badge": "resisted",
+        "desc": "A água apaga chamas rapidamente."
+      }
+    ],
+    "damage_types_immune": [
+      {
+        "type": "Espírito e Veneno",
+        "multiplier": "0x (Imune)",
+        "badge": "immune",
+        "desc": "Não afetada."
+      }
+    ],
+    "recommended_weapons": [
+      {
+        "name": "Arco de Caçador ou Presa de Draugr com Flechas de Gelo",
+        "type": "Arco",
+        "desc": "A melhor combinação: o gelo congela a serpente e impede que ela fuja ou ataque o navio."
+      },
+      {
+        "name": "Arpão Abissal (Abyssal Harpoon)",
+        "type": "Utilitário",
+        "desc": "Arpõe a serpente e navegue o barco para a terra firme para matá-la na praia e não perder as escamas no fundo do mar!"
+      }
+    ],
+    "recommended_armor": {
+      "set": "Qualquer armadura com boa velocidade (ex: Troll ou Fenris)",
+      "type": "Leve",
+      "reason": "No barco, o mais importante é não gastar toda a estamina e poder manobrar a embarcação."
+    },
+    "strategy_pt": "1. **Como Coletar as Escamas**: A carne da serpente boia na água, mas as Escamas e o Troféu afundam no oceano profundo! Use o **Arpão Abissal** para arrastá-la até a margem ou praia rasa e finalize-a lá.\n\n2. **Proteja o Karve ou Longship**: Pare de navegar contra o vento e coloque o barco em meio-vento para atirar flechas continuamente enquanto a serpente nada atrás do leme.\n\n3. **Flechas de Gelo**: Três a quatro tiros de flecha de gelo atordoam a serpente e drenam mais da metade de sua vida rapidamente.",
+    "drops": "Carne de Serpente (para Ensopado de Serpente - 80 Vida!), Escamas de Serpente (para Escudo de Escama de Serpente), Troféu",
+    "id": "serpent",
+    "name_en": "Serpent",
+    "biome_en": "Ocean",
+    "image": ""
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "set_name": "Rag Armor",
+    "biome_en": "Meadows",
+    "biome_pt": "Prados",
+    "armor_type": "Light",
+    "image": "assets/images/armor/Rag_Armor.webp"
+  },
+  {
+    "set_name": "Leather Armor",
+    "biome_en": "Meadows",
+    "biome_pt": "Prados",
+    "armor_type": "Light",
+    "image": "assets/images/armor/Leather_Armor.webp"
+  },
+  {
+    "set_name": "Troll Set",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "armor_type": "Light",
+    "image": "assets/images/armor/Troll_Set.webp"
+  },
+  {
+    "set_name": "Bear Set",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "armor_type": "Light",
+    "image": "assets/images/armor/Bear_Set.webp"
+  },
+  {
+    "set_name": "Bronze Armor",
+    "biome_en": "Black Forest",
+    "biome_pt": "Floresta Negra",
+    "armor_type": "Heavy",
+    "image": "assets/images/armor/Bronze_Armor.webp"
+  },
+  {
+    "set_name": "Root Set",
+    "biome_en": "Swamp",
+    "biome_pt": "Pântano",
+    "armor_type": "Light",
+    "image": "assets/images/armor/Root_Set.webp"
+  },
+  {
+    "set_name": "Iron Armor",
+    "biome_en": "Swamp",
+    "biome_pt": "Pântano",
+    "armor_type": "Heavy",
+    "image": "assets/images/armor/Iron_Armor.webp"
+  },
+  {
+    "set_name": "Fenris Set",
+    "biome_en": "Mountain",
+    "biome_pt": "Montanhas",
+    "armor_type": "Light",
+    "image": "assets/images/armor/Fenris_Set.webp"
+  },
+  {
+    "set_name": "Wolf Armor",
+    "biome_en": "Mountain",
+    "biome_pt": "Montanhas",
+    "armor_type": "Heavy",
+    "image": "assets/images/armor/Wolf_Armor.webp"
+  },
+  {
+    "set_name": "Lox Fur Set",
+    "biome_en": "Plains",
+    "biome_pt": "Planícies",
+    "armor_type": "Light",
+    "image": "assets/images/armor/Lox_Fur_Set.webp"
+  },
+  {
+    "set_name": "Vilebone Set",
+    "biome_en": "Plains",
+    "biome_pt": "Planícies",
+    "armor_type": "Light",
+    "image": "assets/images/armor/Vilebone_Set.webp"
+  },
+  {
+    "set_name": "Padded Armor",
+    "biome_en": "Plains",
+    "biome_pt": "Planícies",
+    "armor_type": "Heavy",
+    "image": "assets/images/armor/Padded_Armor.webp"
+  },
+  {
+    "set_name": "Eitr-weave Set",
+    "biome_en": "Mistlands",
+    "biome_pt": "Terras Nebulosas",
+    "armor_type": "Mage",
+    "image": "assets/images/armor/Eitr-weave_Set.webp"
+  },
+  {
+    "set_name": "Carapace Armor",
+    "biome_en": "Mistlands",
+    "biome_pt": "Terras Nebulosas",
+    "armor_type": "Heavy",
+    "image": "assets/images/armor/Carapace_Armor.webp"
+  },
+  {
+    "set_name": "Ask Set",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "armor_type": "Light",
+    "image": "assets/images/armor/Ask_Set.webp"
+  },
+  {
+    "set_name": "Embla Set",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "armor_type": "Mage",
+    "image": "assets/images/armor/Embla_Set.webp"
+  },
+  {
+    "set_name": "Flametal Armor",
+    "biome_en": "Ashlands",
+    "biome_pt": "Terras Cinzentas",
+    "armor_type": "Heavy",
+    "image": "assets/images/armor/Flametal_Armor.webp"
+  }
+]

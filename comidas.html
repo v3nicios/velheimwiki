@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de Comidas de Valheim | Receitas, Atributos de Vida, Vigor e Dieta Viking</title>
+  <meta name="description" content="Guia completo de todas as 88 comidas de Valheim em português brasileiro. Descubra como cada prato é feito, ingredientes necessários, bancada de produção e quanto concede de Vida, Vigor (Estamina) e Eitr (Magia). Inclui calculadora de combo de 3 comidas.">
+  <link rel="icon" type="image/webp" href="assets/images/Site-logo.webp">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-link">
+        <img src="assets/images/Site-logo.webp" alt="Valheim Logo" class="brand-logo-img" onerror="this.style.display='none'">
+        <div class="brand-title">
+          VALHEIM WIKI
+          <span class="brand-sub">ORÁCULO IA & GUIA VIKING</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-item">
+          <span>⚔️</span>
+          <span>Oráculo IA de Combate</span>
+        </a>
+        <a href="comidas.html" class="nav-item active">
+          <span>🍖</span>
+          <span>Guia de Comidas & Dieta</span>
+          <span class="nav-badge">88 Pratos</span>
+        </a>
+        <a href="index.html#bestiario" class="nav-item">
+          <span>📖</span>
+          <span>Bestiário</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" style="margin-bottom: 1.5rem;">
+      <div class="hero-badge-pill">
+        <span>🍖</span>
+        <span>Guia Gastronômico & Nutricional Viking</span>
+      </div>
+
+      <h1 class="hero-title">
+        Todas as Comidas do Jogo: <span class="highlight">Receitas & Atributos</span>
+      </h1>
+
+      <p class="hero-desc">
+        Em Valheim, a comida define seu destino. Descubra como cada uma das <strong>88 comidas</strong> 
+        é feita, quais <strong>ingredientes e bancada</strong> são necessários e o bônus exato 
+        de <strong>Vida</strong>, <strong>Vigor (Estamina)</strong> e <strong>Eitr (Magia)</strong>.
+      </p>
+    </section>
+
+    <!-- ==========================================================================
+         CALCULADORA DE DIETA VIKING (COMBO DE 3 COMIDAS)
+         ========================================================================== -->
+    <section class="diet-calc-panel" id="diet-calc-target">
+      <div class="diet-calc-card">
+        <div class="calc-header-row">
+          <div class="calc-title">
+            <span>🛡️</span>
+            <span>Calculadora de Dieta Viking (Combo de 3 Comidas)</span>
+          </div>
+          <button id="clear-diet-btn" type="button" class="prompt-chip" style="color:#fca5a5; border-color:rgba(239,68,68,0.3);">
+            🗑️ Limpar Dieta
+          </button>
+        </div>
+
+        <p style="color:#94a3b8; font-size:0.95rem; margin-bottom:1.2rem;">
+          Seu estômago viking pode digerir até <strong>3 comidas diferentes</strong> simultaneamente. 
+          Clique no botão <strong>"+ Adicionar ao Combo"</strong> em qualquer prato abaixo para testar sua combinação ideal!
+        </p>
+
+        <!-- 3 Slots Grid -->
+        <div class="calc-slots-grid" id="diet-slots-container">
+          <!-- Rendered dynamically by food-guide.js -->
+        </div>
+
+        <!-- Dashboard Totais com Métricas de Vida, Vigor e Eitr -->
+        <div class="diet-totals-dashboard">
+          <!-- Vida Total -->
+          <div class="diet-total-metric">
+            <div class="metric-circle-icon health">❤️</div>
+            <div class="metric-values">
+              <span id="diet-total-health" class="metric-num" style="color:#ef4444;">25 HP</span>
+              <span class="metric-label">Vida Máxima (Base + Comidas)</span>
+            </div>
+          </div>
+
+          <!-- Vigor Total -->
+          <div class="diet-total-metric">
+            <div class="metric-circle-icon stamina">⚡</div>
+            <div class="metric-values">
+              <span id="diet-total-stamina" class="metric-num" style="color:#eab308;">50 ST</span>
+              <span class="metric-label">Vigor / Estamina Total</span>
+            </div>
+          </div>
+
+          <!-- Eitr Total -->
+          <div class="diet-total-metric">
+            <div class="metric-circle-icon eitr">🔮</div>
+            <div class="metric-values">
+              <span id="diet-total-eitr" class="metric-num" style="color:#a855f7;">0 EITR</span>
+              <span class="metric-label">Eitr (Magia Elemental)</span>
+            </div>
+          </div>
+
+          <!-- Classificação da Build -->
+          <div class="archetype-badge" id="diet-archetype-badge">
+            🍗 Dieta Inicial / Incompleta
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TOOLBAR DE BUSCA E FILTROS
+         ========================================================================== -->
+    <section class="foods-toolbar">
+      <div class="toolbar-search-row">
+        <!-- Input de Busca -->
+        <div class="food-search-box">
+          <span style="font-size:1.2rem; margin-right:0.6rem;">🔍</span>
+          <input 
+            type="text" 
+            id="food-search-input" 
+            placeholder="Buscar por comida ou ingrediente: ex. mel, nabo, carne, framboesa, cebola, eitr..." 
+            autocomplete="off"
+            aria-label="Buscar comida ou ingrediente"
+          >
+        </div>
+
+        <!-- Filtro por Bioma -->
+        <select id="biome-select" class="select-filter" aria-label="Filtrar por Bioma">
+          <option value="all">📍 Todos os Biomas (8)</option>
+          <option value="Prados">Prados (Meadows)</option>
+          <option value="Floresta Negra">Floresta Negra (Black Forest)</option>
+          <option value="Pântano">Pântano (Swamp)</option>
+          <option value="Montanhas">Montanhas (Mountain)</option>
+          <option value="Planícies">Planícies (Plains)</option>
+          <option value="Terras Nebulosas">Terras Nebulosas (Mistlands)</option>
+          <option value="Terras Cinzentas">Terras Cinzentas (Ashlands)</option>
+        </select>
+
+        <!-- Ordenação -->
+        <select id="sort-select" class="select-filter" aria-label="Ordenar Comidas">
+          <option value="total-desc">📊 Maior Total de Atributos</option>
+          <option value="health-desc">❤️ Maior Bônus de Vida</option>
+          <option value="stamina-desc">⚡ Maior Bônus de Vigor (Estamina)</option>
+          <option value="eitr-desc">🔮 Maior Bônus de Eitr (Magia)</option>
+          <option value="duration-desc">⏱️ Maior Duração</option>
+          <option value="name-asc">🔤 Ordem Alfabética (A-Z)</option>
+        </select>
+      </div>
+
+      <!-- Filtro por Foco de Garfo -->
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+        <div class="fork-filter-chips" id="fork-filter-chips">
+          <button class="fork-chip-btn active" data-fork="all">Todas as Comidas</button>
+          <button class="fork-chip-btn" data-fork="Red" style="border-color:rgba(239,68,68,0.3);">❤️ Foco em Vida (Garfo Vermelho)</button>
+          <button class="fork-chip-btn" data-fork="Yellow" style="border-color:rgba(234,179,8,0.3);">⚡ Foco em Vigor (Garfo Amarelo)</button>
+          <button class="fork-chip-btn" data-fork="Blue" style="border-color:rgba(139,92,246,0.3);">🔮 Foco em Eitr (Garfo Azul)</button>
+          <button class="fork-chip-btn" data-fork="White" style="border-color:rgba(148,163,184,0.3);">⚖️ Balanceadas (Garfo Branco)</button>
+        </div>
+
+        <div id="food-count-label" style="font-size:0.9rem; color:#94a3b8; font-weight:600;">
+          Exibindo 88 de 88 comidas
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         GRID DE CARDS DAS 88 COMIDAS
+         ========================================================================== -->
+    <section class="foods-grid" id="foods-grid" aria-live="polite">
+      <!-- Cards rendered dynamically by food-guide.js -->
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">VALHEIM WIKI & GUIA GASTRONÔMICO</div>
+      <p class="footer-text">
+        Base de dados com 88 comidas de Valheim compiladas em Português Brasileiro (PT-BR).<br>
+        Inclui receitas de caldeirão, forno de pedra, grelhas, tempos de duração, taxas de regeneração e calculadora de dieta viking.
+      </p>
+      <div style="margin-top: 1.2rem; display: flex; justify-content: center; gap: 1.5rem; font-size: 0.95rem;">
+        <a href="index.html">⚔️ Oráculo IA de Combate</a>
+        <span style="color:#64748b;">•</span>
+        <a href="comidas.html">🍖 Guia de Comidas (88 Pratos)</a>
+        <span style="color:#64748b;">•</span>
+        <a href="index.html#bestiario">📖 Bestiário dos 8 Biomas</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/food-guide.js"></script>
+</body>
+</html>

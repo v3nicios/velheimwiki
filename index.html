@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valheim Wiki & Oráculo IA | Consulta de Combate, Fraquezas e Estratégias</title>
+  <meta name="description" content="Oráculo de inteligência artificial de Valheim em português brasileiro. Pesquise como derrotar qualquer monstro, fraquezas elementais, tipos de dano eficazes, armas recomendadas, armaduras ideais e estratégias passo a passo.">
+  <link rel="icon" type="image/webp" href="assets/images/Site-logo.webp">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-link">
+        <img src="assets/images/Site-logo.webp" alt="Valheim Logo" class="brand-logo-img" onerror="this.style.display='none'">
+        <div class="brand-title">
+          VALHEIM WIKI
+          <span class="brand-sub">ORÁCULO IA & GUIA VIKING</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html" class="nav-item active">
+          <span>⚔️</span>
+          <span>Oráculo IA de Combate</span>
+        </a>
+        <a href="comidas.html" class="nav-item">
+          <span>🍖</span>
+          <span>Guia de Comidas & Dieta</span>
+          <span class="nav-badge">88 Pratos</span>
+        </a>
+        <a href="#bestiario" class="nav-item">
+          <span>📖</span>
+          <span>Bestiário</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO & AI SEARCH PROMPT SECTION
+       ========================================================================== -->
+  <main>
+    <section class="hero-section">
+      <div class="hero-badge-pill">
+        <span>⚡</span>
+        <span>Oráculo de Combate em Linguagem Natural</span>
+      </div>
+
+      <h1 class="hero-title">
+        Descubra Como Derrotar <span class="highlight">Qualquer Criatura</span>
+      </h1>
+
+      <p class="hero-desc">
+        Faça sua pergunta como em uma IA: descubra o <strong>tipo de dano eficaz</strong>, 
+        as <strong>armas recomendadas</strong>, a <strong>armadura de preferência</strong> e a 
+        <strong>estratégia detalhada</strong> para sobreviver no décimo mundo nórdico.
+      </p>
+
+      <!-- AI Prompt Bar -->
+      <div class="ai-prompt-wrapper">
+        <div class="ai-prompt-box">
+          <div class="ai-prompt-icon">🔮</div>
+          <input 
+            type="text" 
+            id="ai-prompt-input" 
+            class="ai-input" 
+            placeholder="Ex: Como derrotar um troll ? / Fraqueza da abominação / Melhor arma para o golem..."
+            autocomplete="off"
+            aria-label="Pergunta para o Oráculo de IA"
+          >
+          <button id="ai-submit-btn" class="ai-submit-btn" type="button">
+            <span>Consultar IA</span>
+            <span>⚡</span>
+          </button>
+        </div>
+
+        <!-- Quick Prompt Chips -->
+        <div class="prompt-chips-wrapper">
+          <span class="chip-label">Perguntas Rápidas:</span>
+          <button class="prompt-chip" type="button">⚔️ Como derrotar um Troll?</button>
+          <button class="prompt-chip" type="button">🪵 Fraqueza da Abominação</button>
+          <button class="prompt-chip" type="button">🏔️ Arma contra Golem de Pedra</button>
+          <button class="prompt-chip" type="button">🦟 Como matar Mosquito da Morte?</button>
+          <button class="prompt-chip" type="button">🐺 Como vencer o Lobo?</button>
+          <button class="prompt-chip" type="button">🌫️ Estratégia Seeker Soldier</button>
+          <button class="prompt-chip" type="button">🌊 Caçar a Serpente Marinha</button>
+          <button class="prompt-chip" type="button">💀 Como matar o Draugr?</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         AI RESPONSE VIEW CONTAINER
+         ========================================================================== -->
+    <section id="ai-response-area" class="ai-response-container" aria-live="polite">
+      <!-- AI Answer will be rendered here dynamically via ai-assistant.js -->
+    </section>
+
+    <!-- ==========================================================================
+         BESTIÁRIO COMPLETO (EXPLORADOR POR BIOMA)
+         ========================================================================== -->
+    <section id="bestiario" class="bestiary-section">
+      <div class="section-header-row">
+        <div>
+          <h2 class="section-title">📖 Bestiário dos 8 Biomas</h2>
+          <p class="section-desc">
+            Explore as 50 criaturas de Valheim. Clique em qualquer card para consultar instantaneamente a estratégia da IA.
+          </p>
+        </div>
+      </div>
+
+      <!-- Biome Tabs -->
+      <div id="biome-filter-tabs" class="biome-filter-bar">
+        <!-- Rendered by JavaScript -->
+      </div>
+
+      <!-- Creatures Grid -->
+      <div id="bestiary-grid" class="creatures-grid">
+        <!-- Rendered by JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">VALHEIM WIKI & ORÁCULO IA</div>
+      <p class="footer-text">
+        Base de conhecimento desenvolvida em Português Brasileiro (PT-BR) para hospedagem no GitHub Pages.<br>
+        Contém estratégias de combate, danos, armas, armaduras e o guia gastronômico completo de Valheim.
+      </p>
+      <div style="margin-top: 1.2rem; display: flex; justify-content: center; gap: 1.5rem; font-size: 0.95rem;">
+        <a href="index.html">⚔️ Oráculo IA de Combate</a>
+        <span style="color:#64748b;">•</span>
+        <a href="comidas.html">🍖 Guia de Comidas (88 Pratos)</a>
+        <span style="color:#64748b;">•</span>
+        <a href="#bestiario">📖 Bestiário dos 8 Biomas</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/ai-assistant.js"></script>
+</body>
+</html>

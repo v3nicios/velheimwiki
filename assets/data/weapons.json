@@ -1,0 +1,856 @@
+[
+  {
+    "name_en": "Stone axe",
+    "name_pt": "Stone axe",
+    "category": "Axes",
+    "damage": "Slash: 15/30Chop: 20/29",
+    "image": "assets/images/weapons/Stone_Axe.webp"
+  },
+  {
+    "name_en": "Flint axe",
+    "name_pt": "Flint axe",
+    "category": "Axes",
+    "damage": "Slash: 20/35Chop: 30/39",
+    "image": "assets/images/weapons/Flint_Axe.webp"
+  },
+  {
+    "name_en": "Bronze axe",
+    "name_pt": "Bronze axe",
+    "category": "Axes",
+    "damage": "Slash: 40/55Chop: 40/49",
+    "image": "assets/images/weapons/Bronze_Axe.webp"
+  },
+  {
+    "name_en": "Iron axe",
+    "name_pt": "Iron axe",
+    "category": "Axes",
+    "damage": "Slash: 60/75Chop: 50/59",
+    "image": "assets/images/weapons/Iron_Axe.webp"
+  },
+  {
+    "name_en": "Black metal axe",
+    "name_pt": "Black metal axe",
+    "category": "Axes",
+    "damage": "Slash: 100/115Chop: 60/69",
+    "image": "assets/images/weapons/Black_Metal_Axe.webp"
+  },
+  {
+    "name_en": "Jotun Bane",
+    "name_pt": "Jotun Bane",
+    "category": "Axes",
+    "damage": "Slash: 80/95Poison: 40/40Chop: 70/79",
+    "image": "assets/images/weapons/Jotun_Bane.webp"
+  },
+  {
+    "name_en": "Early axes",
+    "name_pt": "Early axes",
+    "category": "Axes",
+    "damage": "Slash: 30/45Chop: 35/44",
+    "image": "assets/images/weapons/Early_Axes.webp"
+  },
+  {
+    "name_en": "Berserkir axes",
+    "name_pt": "Berserkir axes",
+    "category": "Axes",
+    "damage": "Slash: 140/155Chop: 80/89",
+    "image": "assets/images/weapons/Berserkir_Axes.webp"
+  },
+  {
+    "name_en": "Battleaxe",
+    "name_pt": "Battleaxe",
+    "category": "Axes",
+    "damage": "Slash: 70/88Chop: 40/47.5",
+    "image": "assets/images/weapons/Battleaxe.webp"
+  },
+  {
+    "name_en": "Crystal battleaxe",
+    "name_pt": "Crystal battleaxe",
+    "category": "Axes",
+    "damage": "Slash: 90/108Spirit: 30/30Chop: 50/57.5",
+    "image": "assets/images/weapons/Crystal_Battleaxe.webp"
+  },
+  {
+    "name_en": "Black metal battleaxe",
+    "name_pt": "Black metal battleaxe",
+    "category": "Axes",
+    "damage": "Slash: 110/128Chop: 60/67.5",
+    "image": "assets/images/weapons/Black_Metal_Battleaxe.webp"
+  },
+  {
+    "name_en": "Skull Splittur",
+    "name_pt": "Skull Splittur",
+    "category": "Axes",
+    "damage": "Slash: 130/148Chop: 70/77.5",
+    "image": "assets/images/weapons/Skull_Splittur.webp"
+  },
+  {
+    "name_en": "Torch",
+    "name_pt": "Torch",
+    "category": "Clubs",
+    "damage": "Blunt: 4Fire: 15",
+    "image": "assets/images/weapons/Torch(1).webp"
+  },
+  {
+    "name_en": "Club",
+    "name_pt": "Club",
+    "category": "Clubs",
+    "damage": "Blunt: 12/30",
+    "image": "assets/images/weapons/Club(1).webp"
+  },
+  {
+    "name_en": "Bronze mace",
+    "name_pt": "Bronze mace",
+    "category": "Clubs",
+    "damage": "Blunt: 35/53",
+    "image": "assets/images/weapons/Bronze_Mace(1).webp"
+  },
+  {
+    "name_en": "Iron mace",
+    "name_pt": "Iron mace",
+    "category": "Clubs",
+    "damage": "Blunt: 55/73",
+    "image": "assets/images/weapons/Iron_Mace(1).webp"
+  },
+  {
+    "name_en": "Frostner",
+    "name_pt": "Frostner",
+    "category": "Clubs",
+    "damage": "Frost: 40/58Blunt: 35/35Spirit: 20/20",
+    "image": "assets/images/weapons/Frostner(1).webp"
+  },
+  {
+    "name_en": "Porcupine",
+    "name_pt": "Porcupine",
+    "category": "Clubs",
+    "damage": "Blunt: 50/50Pierce: 45/63",
+    "image": "assets/images/weapons/Porcupine(1).webp"
+  },
+  {
+    "name_en": "Flametal mace",
+    "name_pt": "Flametal mace",
+    "category": "Clubs",
+    "damage": "Blunt: 135/153",
+    "image": "assets/images/weapons/Flametal_Mace(1).webp"
+  },
+  {
+    "name_en": "Stagbreaker",
+    "name_pt": "Stagbreaker",
+    "category": "Clubs",
+    "damage": "Blunt: 20/38Pierce: 5/5",
+    "image": "assets/images/weapons/Stagbreaker(1).webp"
+  },
+  {
+    "name_en": "Iron sledge",
+    "name_pt": "Iron sledge",
+    "category": "Clubs",
+    "damage": "Blunt: 55/73",
+    "image": "assets/images/weapons/Iron_Sledge(1).webp"
+  },
+  {
+    "name_en": "Demolisher",
+    "name_pt": "Demolisher",
+    "category": "Clubs",
+    "damage": "Blunt: 145/163",
+    "image": "assets/images/weapons/Demolisher(1).webp"
+  },
+  {
+    "name_en": "Bronze sword",
+    "name_pt": "Bronze sword",
+    "category": "Swords",
+    "damage": "Slash: 35/53",
+    "image": "assets/images/weapons/Bronze_Sword(1).webp"
+  },
+  {
+    "name_en": "Iron sword",
+    "name_pt": "Iron sword",
+    "category": "Swords",
+    "damage": "Slash: 55/73",
+    "image": "assets/images/weapons/Iron_Sword(1).webp"
+  },
+  {
+    "name_en": "Silver sword",
+    "name_pt": "Silver sword",
+    "category": "Swords",
+    "damage": "Slash: 75/93Spirit: 30/45",
+    "image": "assets/images/weapons/Silver_Sword(1).webp"
+  },
+  {
+    "name_en": "Black metal sword",
+    "name_pt": "Black metal sword",
+    "category": "Swords",
+    "damage": "Slash: 95/113",
+    "image": "assets/images/weapons/Black_Metal_Sword(1).webp"
+  },
+  {
+    "name_en": "Mistwalker",
+    "name_pt": "Mistwalker",
+    "category": "Swords",
+    "damage": "Slash: 75/75Frost: 40/58Spirit: 0/15",
+    "image": "assets/images/weapons/Mistwalker(1).webp"
+  },
+  {
+    "name_en": "Nidhögg",
+    "name_pt": "Nidhögg",
+    "category": "Swords",
+    "damage": "Slash: 135/153",
+    "image": ""
+  },
+  {
+    "name_en": "Dyrnwyn",
+    "name_pt": "Dyrnwyn",
+    "category": "Swords",
+    "damage": "Slash: 145/163Fire: 10",
+    "image": "assets/images/weapons/Dyrnwyn(1).webp"
+  },
+  {
+    "name_en": "Krom",
+    "name_pt": "Krom",
+    "category": "Swords",
+    "damage": "Slash: 150/168",
+    "image": "assets/images/weapons/Krom(1).webp"
+  },
+  {
+    "name_en": "Slayer",
+    "name_pt": "Slayer",
+    "category": "Swords",
+    "damage": "Slash: 170/188",
+    "image": "assets/images/weapons/Slayer(1).webp"
+  },
+  {
+    "name_en": "Flint spear",
+    "name_pt": "Flint spear",
+    "category": "Spears",
+    "damage": "Pierce: 20/38",
+    "image": "assets/images/weapons/Flint_Spear(1).webp"
+  },
+  {
+    "name_en": "Bronze spear",
+    "name_pt": "Bronze spear",
+    "category": "Spears",
+    "damage": "Pierce: 35/53",
+    "image": "assets/images/weapons/Bronze_Spear(1).webp"
+  },
+  {
+    "name_en": "Ancient bark spear",
+    "name_pt": "Ancient bark spear",
+    "category": "Spears",
+    "damage": "Pierce: 55/73",
+    "image": "assets/images/weapons/Ancient_Bark_Spear(1).webp"
+  },
+  {
+    "name_en": "Fang spear",
+    "name_pt": "Fang spear",
+    "category": "Spears",
+    "damage": "Pierce: 75/93",
+    "image": "assets/images/weapons/Fang_Spear(1).webp"
+  },
+  {
+    "name_en": "Carapace spear",
+    "name_pt": "Carapace spear",
+    "category": "Spears",
+    "damage": "Pierce: 115/133",
+    "image": "assets/images/weapons/Carapace_Spear(1).webp"
+  },
+  {
+    "name_en": "Splitnir",
+    "name_pt": "Splitnir",
+    "category": "Spears",
+    "damage": "Pierce: 135/153",
+    "image": "assets/images/weapons/Splitnir(1).webp"
+  },
+  {
+    "name_en": "Bronze atgeir",
+    "name_pt": "Bronze atgeir",
+    "category": "Polearms",
+    "damage": "Pierce: 45/63",
+    "image": "assets/images/weapons/Bronze_Atgeir.webp"
+  },
+  {
+    "name_en": "Iron atgeir",
+    "name_pt": "Iron atgeir",
+    "category": "Polearms",
+    "damage": "Pierce: 65/83",
+    "image": "assets/images/weapons/Iron_Atgeir.webp"
+  },
+  {
+    "name_en": "Black metal atgeir",
+    "name_pt": "Black metal atgeir",
+    "category": "Polearms",
+    "damage": "Pierce: 105/123",
+    "image": "assets/images/weapons/Black_Metal_Atgeir.webp"
+  },
+  {
+    "name_en": "Himminafl",
+    "name_pt": "Himminafl",
+    "category": "Polearms",
+    "damage": "Pierce: 85/85Lightning: 40/58",
+    "image": "assets/images/weapons/Himminafl.webp"
+  },
+  {
+    "name_en": "Flint knife",
+    "name_pt": "Flint knife",
+    "category": "Knives",
+    "damage": "Slash: 5/8Pierce: 5/8",
+    "image": "assets/images/weapons/Flint_Knife.webp"
+  },
+  {
+    "name_en": "Copper knife",
+    "name_pt": "Copper knife",
+    "category": "Knives",
+    "damage": "Slash: 12/15Pierce: 12/15",
+    "image": "assets/images/weapons/Copper_Knife.webp"
+  },
+  {
+    "name_en": "Butcher knife",
+    "name_pt": "Butcher knife",
+    "category": "Knives",
+    "damage": "Pure: 1000",
+    "image": "assets/images/weapons/Butcher_Knife.webp"
+  },
+  {
+    "name_en": "Abyssal Razor",
+    "name_pt": "Abyssal Razor",
+    "category": "Knives",
+    "damage": "Slash: 20/23Pierce: 20/23",
+    "image": "assets/images/weapons/Abyssal_Razor.webp"
+  },
+  {
+    "name_en": "Silver knife",
+    "name_pt": "Silver knife",
+    "category": "Knives",
+    "damage": "Slash: 25/28Pierce: 25/28Spirit: 12",
+    "image": "assets/images/weapons/Silver_Knife.webp"
+  },
+  {
+    "name_en": "Black metal knife",
+    "name_pt": "Black metal knife",
+    "category": "Knives",
+    "damage": "Slash: 34/37Pierce: 34/37",
+    "image": "assets/images/weapons/Black_Metal_Knife.webp"
+  },
+  {
+    "name_en": "Skoll and Hati",
+    "name_pt": "Skoll and Hati",
+    "category": "Knives",
+    "damage": "Slash: 45/48Pierce: 45/48",
+    "image": "assets/images/weapons/Skoll_and_Hati.webp"
+  },
+  {
+    "name_en": "Bare fists",
+    "name_pt": "Bare fists",
+    "category": "Fists",
+    "damage": "blunt: 5",
+    "image": ""
+  },
+  {
+    "name_en": "Paws of the Bear",
+    "name_pt": "Paws of the Bear",
+    "category": "Fists",
+    "damage": "slash: 25/37",
+    "image": "assets/images/weapons/Paws_of_the_Bear.webp"
+  },
+  {
+    "name_en": "Flesh Rippers",
+    "name_pt": "Flesh Rippers",
+    "category": "Fists",
+    "damage": "slash: 60/72",
+    "image": "assets/images/weapons/Flesh_Rippers.webp"
+  },
+  {
+    "name_en": "Vilebone Maulclaws",
+    "name_pt": "Vilebone Maulclaws",
+    "category": "Fists",
+    "damage": "pierce: 60slash: 20/32",
+    "image": "assets/images/weapons/Vilebone_Maulclaws.webp"
+  },
+  {
+    "name_en": "Wood shield",
+    "name_pt": "Wood shield",
+    "category": "Shields",
+    "damage": "Round",
+    "image": "assets/images/weapons/Wood_Shield.webp"
+  },
+  {
+    "name_en": "Wood tower shield",
+    "name_pt": "Wood tower shield",
+    "category": "Shields",
+    "damage": "Tower",
+    "image": "assets/images/weapons/Wood_Tower_Shield.webp"
+  },
+  {
+    "name_en": "Bone tower shield",
+    "name_pt": "Bone tower shield",
+    "category": "Shields",
+    "damage": "Tower",
+    "image": "assets/images/weapons/Bone_Tower_Shield.webp"
+  },
+  {
+    "name_en": "Bronze buckler",
+    "name_pt": "Bronze buckler",
+    "category": "Shields",
+    "damage": "Buckler",
+    "image": "assets/images/weapons/Bronze_Buckler.webp"
+  },
+  {
+    "name_en": "Banded shield",
+    "name_pt": "Banded shield",
+    "category": "Shields",
+    "damage": "Round",
+    "image": "assets/images/weapons/Banded_Shield.webp"
+  },
+  {
+    "name_en": "Iron buckler",
+    "name_pt": "Iron buckler",
+    "category": "Shields",
+    "damage": "Buckler",
+    "image": "assets/images/weapons/Iron_Buckler.webp"
+  },
+  {
+    "name_en": "Shield of Roots",
+    "name_pt": "Shield of Roots",
+    "category": "Shields",
+    "damage": "Round",
+    "image": ""
+  },
+  {
+    "name_en": "Iron tower shield",
+    "name_pt": "Iron tower shield",
+    "category": "Shields",
+    "damage": "Tower",
+    "image": "assets/images/weapons/Iron_Tower_Shield.webp"
+  },
+  {
+    "name_en": "Silver shield",
+    "name_pt": "Silver shield",
+    "category": "Shields",
+    "damage": "Round",
+    "image": "assets/images/weapons/Silver_Shield.webp"
+  },
+  {
+    "name_en": "Serpent scale shield",
+    "name_pt": "Serpent scale shield",
+    "category": "Shields",
+    "damage": "Tower",
+    "image": "assets/images/weapons/Serpent_Scale_Shield.webp"
+  },
+  {
+    "name_en": "Black metal shield",
+    "name_pt": "Black metal shield",
+    "category": "Shields",
+    "damage": "Round",
+    "image": "assets/images/weapons/Black_Metal_Shield.webp"
+  },
+  {
+    "name_en": "Black metal tower shield",
+    "name_pt": "Black metal tower shield",
+    "category": "Shields",
+    "damage": "Tower",
+    "image": "assets/images/weapons/Black_Metal_Tower_Shield.webp"
+  },
+  {
+    "name_en": "Carapace buckler",
+    "name_pt": "Carapace buckler",
+    "category": "Shields",
+    "damage": "Buckler",
+    "image": "assets/images/weapons/Carapace_Buckler.webp"
+  },
+  {
+    "name_en": "Carapace shield",
+    "name_pt": "Carapace shield",
+    "category": "Shields",
+    "damage": "Round",
+    "image": "assets/images/weapons/Carapace_Shield.webp"
+  },
+  {
+    "name_en": "Flametal shield",
+    "name_pt": "Flametal shield",
+    "category": "Shields",
+    "damage": "Round",
+    "image": "assets/images/weapons/Flametal_Shield.webp"
+  },
+  {
+    "name_en": "Flametal tower shield",
+    "name_pt": "Flametal tower shield",
+    "category": "Shields",
+    "damage": "Tower",
+    "image": "assets/images/weapons/Flametal_Tower_Shield.webp"
+  },
+  {
+    "name_en": "Min",
+    "name_pt": "Min",
+    "category": "Bows",
+    "damage": "Min",
+    "image": ""
+  },
+  {
+    "name_en": "Crude bow",
+    "name_pt": "Crude bow",
+    "category": "Bows",
+    "damage": "4 / s",
+    "image": "assets/images/weapons/Crude_Bow.webp"
+  },
+  {
+    "name_en": "Finewood bow",
+    "name_pt": "Finewood bow",
+    "category": "Bows",
+    "damage": "6 / s",
+    "image": "assets/images/weapons/Finewood_Bow.webp"
+  },
+  {
+    "name_en": "Huntsman bow",
+    "name_pt": "Huntsman bow",
+    "category": "Bows",
+    "damage": "8 / s",
+    "image": "assets/images/weapons/Huntsman_Bow.webp"
+  },
+  {
+    "name_en": "Draugr Fang",
+    "name_pt": "Draugr Fang",
+    "category": "Bows",
+    "damage": "10 / s",
+    "image": "assets/images/weapons/Draugr_Fang.webp"
+  },
+  {
+    "name_en": "Spinesnap",
+    "name_pt": "Spinesnap",
+    "category": "Bows",
+    "damage": "14 / s",
+    "image": "assets/images/weapons/Spinesnap.webp"
+  },
+  {
+    "name_en": "Ash Fang",
+    "name_pt": "Ash Fang",
+    "category": "Bows",
+    "damage": "14 / s",
+    "image": "assets/images/weapons/Ash_Fang.webp"
+  },
+  {
+    "name_en": "Arbalest",
+    "name_pt": "Arbalest",
+    "category": "Crossbows",
+    "damage": "3.5s",
+    "image": "assets/images/weapons/Arbalest.webp"
+  },
+  {
+    "name_en": "Ripper",
+    "name_pt": "Ripper",
+    "category": "Crossbows",
+    "damage": "3.5s",
+    "image": "assets/images/weapons/Ripper.webp"
+  },
+  {
+    "name_en": "Staff of Embers",
+    "name_pt": "Staff of Embers",
+    "category": "Elemental magic",
+    "damage": "Blunt: 120Fire: 120/138",
+    "image": "assets/images/weapons/Staff_of_Embers.webp"
+  },
+  {
+    "name_en": "Staff of Frost",
+    "name_pt": "Staff of Frost",
+    "category": "Elemental magic",
+    "damage": "Frost: 30/36",
+    "image": "assets/images/weapons/Staff_of_Frost.webp"
+  },
+  {
+    "name_en": "Dundr",
+    "name_pt": "Dundr",
+    "category": "Elemental magic",
+    "damage": "Lightning:12x20/12x26",
+    "image": "assets/images/weapons/Dundr.webp"
+  },
+  {
+    "name_en": "Staff of the Wild",
+    "name_pt": "Staff of the Wild",
+    "category": "Elemental magic",
+    "damage": "Blunt:20/60Poison:20/60",
+    "image": "assets/images/weapons/Staff_of_the_Wild.webp"
+  },
+  {
+    "name_en": "Staff of Fracturing",
+    "name_pt": "Staff of Fracturing",
+    "category": "Elemental magic",
+    "damage": "Blunt:12x12Fire:12x12/12x24",
+    "image": "assets/images/weapons/Staff_of_Fracturing.webp"
+  },
+  {
+    "name_en": "Staff of Protection",
+    "name_pt": "Staff of Protection",
+    "category": "Blood magic",
+    "damage": "60",
+    "image": "assets/images/weapons/Staff_of_Protection.webp"
+  },
+  {
+    "name_en": "Dead Raiser",
+    "name_pt": "Dead Raiser",
+    "category": "Blood magic",
+    "damage": "100",
+    "image": "assets/images/weapons/Dead_Raiser.webp"
+  },
+  {
+    "name_en": "Trollstav",
+    "name_pt": "Trollstav",
+    "category": "Blood magic",
+    "damage": "120",
+    "image": "assets/images/weapons/Trollstav.webp"
+  },
+  {
+    "name_en": "Wood arrow",
+    "name_pt": "Wood arrow",
+    "category": "Arrows",
+    "damage": "22",
+    "image": "assets/images/weapons/Wood_Arrow.webp"
+  },
+  {
+    "name_en": "Flinthead arrow",
+    "name_pt": "Flinthead arrow",
+    "category": "Arrows",
+    "damage": "27",
+    "image": "assets/images/weapons/Flinthead_Arrow.webp"
+  },
+  {
+    "name_en": "Bronzehead arrow",
+    "name_pt": "Bronzehead arrow",
+    "category": "Arrows",
+    "damage": "32",
+    "image": "assets/images/weapons/Bronzehead_Arrow.webp"
+  },
+  {
+    "name_en": "Fire arrow",
+    "name_pt": "Fire arrow",
+    "category": "Arrows",
+    "damage": "33",
+    "image": "assets/images/weapons/Fire_Arrow.webp"
+  },
+  {
+    "name_en": "Ironhead arrow",
+    "name_pt": "Ironhead arrow",
+    "category": "Arrows",
+    "damage": "42",
+    "image": "assets/images/weapons/Ironhead_Arrow.webp"
+  },
+  {
+    "name_en": "Poison arrow",
+    "name_pt": "Poison arrow",
+    "category": "Arrows",
+    "damage": "78",
+    "image": "assets/images/weapons/Poison_Arrow.webp"
+  },
+  {
+    "name_en": "Obsidian arrow",
+    "name_pt": "Obsidian arrow",
+    "category": "Arrows",
+    "damage": "52",
+    "image": "assets/images/weapons/Obsidian_Arrow.webp"
+  },
+  {
+    "name_en": "Frost arrow",
+    "name_pt": "Frost arrow",
+    "category": "Arrows",
+    "damage": "78",
+    "image": "assets/images/weapons/Frost_Arrow.webp"
+  },
+  {
+    "name_en": "Silver arrow",
+    "name_pt": "Silver arrow",
+    "category": "Arrows",
+    "damage": "72",
+    "image": "assets/images/weapons/Silver_Arrow.webp"
+  },
+  {
+    "name_en": "Needle arrow",
+    "name_pt": "Needle arrow",
+    "category": "Arrows",
+    "damage": "62",
+    "image": "assets/images/weapons/Needle_Arrow.webp"
+  },
+  {
+    "name_en": "Carapace arrow",
+    "name_pt": "Carapace arrow",
+    "category": "Arrows",
+    "damage": "72",
+    "image": "assets/images/weapons/Carapace_Arrow.webp"
+  },
+  {
+    "name_en": "Charred arrow",
+    "name_pt": "Charred arrow",
+    "category": "Arrows",
+    "damage": "82",
+    "image": "assets/images/weapons/Charred_Arrow.webp"
+  },
+  {
+    "name_en": "Bone bolt",
+    "name_pt": "Bone bolt",
+    "category": "Bolts",
+    "damage": "Pierce: 32",
+    "image": "assets/images/weapons/Bone_Bolt.webp"
+  },
+  {
+    "name_en": "Iron bolt",
+    "name_pt": "Iron bolt",
+    "category": "Bolts",
+    "damage": "Pierce: 42",
+    "image": "assets/images/weapons/Iron_Bolt.webp"
+  },
+  {
+    "name_en": "Black metal bolt",
+    "name_pt": "Black metal bolt",
+    "category": "Bolts",
+    "damage": "Pierce: 62",
+    "image": "assets/images/weapons/Black_Metal_Bolt.webp"
+  },
+  {
+    "name_en": "Carapace bolt",
+    "name_pt": "Carapace bolt",
+    "category": "Bolts",
+    "damage": "Pierce: 72",
+    "image": "assets/images/weapons/Carapace_Bolt.webp"
+  },
+  {
+    "name_en": "Charred bolt",
+    "name_pt": "Charred bolt",
+    "category": "Bolts",
+    "damage": "Pierce: 82",
+    "image": "assets/images/weapons/Charred_Bolt.webp"
+  },
+  {
+    "name_en": "Wooden missile",
+    "name_pt": "Wooden missile",
+    "category": "Missiles",
+    "damage": "Pierce: 75",
+    "image": ""
+  },
+  {
+    "name_en": "Black metal missile",
+    "name_pt": "Black metal missile",
+    "category": "Missiles",
+    "damage": "Pierce: 120",
+    "image": ""
+  },
+  {
+    "name_en": "Flametal missile",
+    "name_pt": "Flametal missile",
+    "category": "Missiles",
+    "damage": "Pierce: 140",
+    "image": ""
+  },
+  {
+    "name_en": "Ooze bomb",
+    "name_pt": "Ooze bomb",
+    "category": "Bombs",
+    "damage": "5",
+    "image": "assets/images/weapons/Ooze_Bomb.webp"
+  },
+  {
+    "name_en": "Bile bomb",
+    "name_pt": "Bile bomb",
+    "category": "Bombs",
+    "damage": "5",
+    "image": "assets/images/weapons/Bile_Bomb.webp"
+  },
+  {
+    "name_en": "Smoke bomb",
+    "name_pt": "Smoke bomb",
+    "category": "Bombs",
+    "damage": "5",
+    "image": "assets/images/weapons/Smoke_Bomb.webp"
+  },
+  {
+    "name_en": "Blob Bomb: Poison",
+    "name_pt": "Blob Bomb: Poison",
+    "category": "Blob bombs",
+    "damage": "Corked vialx1Resinx3Blob trophyx1",
+    "image": "assets/images/weapons/Blob_bomb_Poison.webp"
+  },
+  {
+    "name_en": "Blob Bomb: Elite poison (x2)",
+    "name_pt": "Blob Bomb: Elite poison (x2)",
+    "category": "Blob bombs",
+    "damage": "Corked vialx1Resinx3Blob trophyx3",
+    "image": "assets/images/weapons/Blob_bomb_Elite_poison.webp"
+  },
+  {
+    "name_en": "Blob Bomb: Frost",
+    "name_pt": "Blob Bomb: Frost",
+    "category": "Blob bombs",
+    "damage": "Corked vialx1Resinx3Drake trophyx1",
+    "image": "assets/images/weapons/Blob_bomb_Frost.webp"
+  },
+  {
+    "name_en": "Blob Bomb: Tar",
+    "name_pt": "Blob Bomb: Tar",
+    "category": "Blob bombs",
+    "damage": "Corked vialx1Tarx3Growth trophyx1",
+    "image": "assets/images/weapons/Blob_bomb_Tar.webp"
+  },
+  {
+    "name_en": "Blob Bomb: Lava",
+    "name_pt": "Blob Bomb: Lava",
+    "category": "Blob bombs",
+    "damage": "Corked vialx1Sulfurx10Proustite powderx10",
+    "image": "assets/images/weapons/Blob_bomb_Lava.webp"
+  },
+  {
+    "name_en": "Wooden sword",
+    "name_pt": "Wooden sword",
+    "category": "Wooden weapons",
+    "damage": "Swords",
+    "image": "assets/images/weapons/Wooden_sword.webp"
+  },
+  {
+    "name_en": "Wooden axe",
+    "name_pt": "Wooden axe",
+    "category": "Wooden weapons",
+    "damage": "Axes",
+    "image": "assets/images/weapons/Wooden_axe.webp"
+  },
+  {
+    "name_en": "Wooden knife",
+    "name_pt": "Wooden knife",
+    "category": "Wooden weapons",
+    "damage": "Knives",
+    "image": "assets/images/weapons/Wooden_knife.webp"
+  },
+  {
+    "name_en": "Wooden mace",
+    "name_pt": "Wooden mace",
+    "category": "Wooden weapons",
+    "damage": "Clubs",
+    "image": "assets/images/weapons/Wooden_mace.webp"
+  },
+  {
+    "name_en": "Wooden spear",
+    "name_pt": "Wooden spear",
+    "category": "Wooden weapons",
+    "damage": "Spears",
+    "image": "assets/images/weapons/Wooden_spear.webp"
+  },
+  {
+    "name_en": "Wooden sledge",
+    "name_pt": "Wooden sledge",
+    "category": "Wooden weapons",
+    "damage": "Sledge hammers",
+    "image": "assets/images/weapons/Wooden_sledge.webp"
+  },
+  {
+    "name_en": "Wooden battleaxe",
+    "name_pt": "Wooden battleaxe",
+    "category": "Wooden weapons",
+    "damage": "Battleaxe",
+    "image": "assets/images/weapons/Wooden_battleaxe.webp"
+  },
+  {
+    "name_en": "Wooden atgeir",
+    "name_pt": "Wooden atgeir",
+    "category": "Wooden weapons",
+    "damage": "Polearms",
+    "image": "assets/images/weapons/Wooden_atgeir.webp"
+  },
+  {
+    "name_en": "Wooden greatsword",
+    "name_pt": "Wooden greatsword",
+    "category": "Wooden weapons",
+    "damage": "Two-handedSwords",
+    "image": "assets/images/weapons/Wooden_greatsword.webp"
+  }
+]
