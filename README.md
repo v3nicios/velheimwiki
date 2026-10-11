@@ -66,16 +66,3 @@ Guia tático de combate com inteligência artificial e compêndio gastronômico 
 
 ---
 
-## 🌐 Como Hospedar no GitHub Pages
-
-1. Faça o commit e push de todos os arquivos para o seu repositório no GitHub:
-   ```bash
-   git add .
-   git commit -m "Adiciona Valheim Wiki com Oráculo IA e Guia de Comidas"
-   git push origin main
-   ```
-2. No seu repositório no GitHub, acesse **Settings** > **Pages**.
-3. Em **Branch**, selecione `main` (ou `master`) e a pasta `/ (root)`.
-4. Clique em **Save**.
-5. Seu site estará disponível em alguns instantes no endereço:
-   `https://<seu-usuario>.github.io/<nome-do-repositorio>/`
