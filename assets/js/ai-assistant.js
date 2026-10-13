@@ -468,7 +468,7 @@
         </div>
 
         <!-- Footer Bar with Quick Follow-ups -->
-        <div style="padding:1.5rem 2rem; background:rgba(10,14,24,0.9); border-top:1px solid var(--border-subtle); display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
+        <div class="ai-card-footer">
           <div style="font-size:0.9rem; color:#94a3b8;">
             💡 <strong>Outras consultas rápidas:</strong>
           </div>
@@ -495,7 +495,7 @@
   // Not Found Fallback with suggestions
   function renderNotFoundResponse(q) {
     aiResponseArea.innerHTML = `
-      <div class="ai-answer-card" style="padding: 2.5rem; text-align: center;">
+      <div class="ai-answer-card ai-fallback-card">
         <span style="font-size:3rem; margin-bottom:1rem; display:block;">🔍</span>
         <h3 style="color:#fbbf24; font-size:1.8rem; margin-bottom:0.8rem;">Criatura Não Identificada</h3>
         <p style="color:#cbd5e1; max-width:600px; margin:0 auto 1.5rem; font-size:1.05rem;">
@@ -540,7 +540,7 @@
     `).join('');
 
     aiResponseArea.innerHTML = `
-      <div class="ai-answer-card" style="padding: 2rem;">
+      <div class="ai-answer-card ai-biome-card">
         <h3 style="color:#fbbf24; font-size:1.6rem; margin-bottom:0.5rem;">
           🗺️ Criaturas do Bioma: ${escapeHtml(biomeTerm.toUpperCase())}
         </h3>
